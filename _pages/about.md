@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "SITE STILL IN PROGRESS"
 excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-SITE STILL IN PROGRESS
-------
 
 Site-wide configuration
 ------
