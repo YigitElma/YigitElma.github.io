@@ -1,14 +1,15 @@
 ---
 layout: archive
-title: "CV"
+title: "CV                                           [Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
+[Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)
 
 {% include base_path %}
-[Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)
+
 Education
 ======
 * **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
