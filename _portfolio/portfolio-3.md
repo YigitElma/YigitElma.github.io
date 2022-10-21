@@ -1,6 +1,6 @@
 ---
 title: "Project 3"
-excerpt: 
+excerpt: ""
 collection: portfolio
 ---
 
