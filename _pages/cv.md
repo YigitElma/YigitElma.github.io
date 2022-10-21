@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV                                           [Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -26,22 +26,18 @@ Education
 Work experience
 ======
 * **Undergraduate Researcher: BUSTLab**
-  * 2021 October-Present
-  * Istanbul/Turkey
+  * 2021 October-Present,    Istanbul/Turkey
   * Supervisor: Professor Murat Celik
 
 * **Undergraduate Researcher: Max Planck Institute for Intelligent Systems**
-  * 2022 June-September
-  * Stuttgart/Germany
+  * 2022 June-September,     Stuttgart/Germany
   * Supervisor: Professor Metin Sitti, Mehmet Efe Tiryaki
 
 * **Manufacturing Intern: PAKKENS**
-  * 2022 January-February
-  * Bursa/Turkey
+  * 2022 January-February,   Bursa/Turkey
 
 * **R&D Intern: BAYKAR Technologies**
-  * 2021 August-September
-  * Istanbul/Turkey
+  * 2021 August-September,   Istanbul/Turkey
 
 Skills
 ======
