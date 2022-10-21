@@ -24,21 +24,21 @@ Education
 
 Work experience
 ======
-* Undergraduate Researcher: **BUSTLab**
+* **Undergraduate Researcher: BUSTLab**
   * 2021 October-Present
   * Istanbul/Turkey
   * Supervisor: Professor Murat Celik
   * 
-* Undergraduate Researcher: **Max Planck Institute for Intelligent Systems**
+* **Undergraduate Researcher: Max Planck Institute for Intelligent Systems**
   * 2022 June-September
   * Stuttgart/Germany
   * Supervisor: Professor Metin Sitti, Mehmet Efe Tiryaki
 
-* Manufacturing Intern: **PAKKENS**
+* **Manufacturing Intern: PAKKENS**
   * 2022 January-February
   * Bursa/Turkey
 
-* R&D Intern: **BAYKAR Technologies**
+* **R&D Intern: BAYKAR Technologies**
   * 2021 August-September
   * Istanbul/Turkey
   
@@ -63,6 +63,14 @@ Skills
   * LaTex
   * Microsoft Office
   * Inkscape  
+
+Languages
+======
+* English
+  * TOEFL: 110/120
+* French: B2
+* Italian: Beginner
+* Turkish: Native
 
 Publications
 ======
