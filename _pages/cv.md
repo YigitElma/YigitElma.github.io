@@ -16,7 +16,7 @@ Education
   * Teams: Bumerang Rocket and Rasat CanSat 
 * B.S. in Physics, Bogazici University, 2019-2023
   * GPA: 3.90/4.00  
-  * TUBİTAK 2205 Scholarship Undergraduate Scholarship for Science Major Students
+  * TUBİTAK 2205 Undergraduate Scholarship for Science Major Students
 * Galatasaray High School, 2012-2017
   * GPA: 87.59/100  
   * Activities: Volleyball Team Captain, Guitarist at student band, Art Club Member
