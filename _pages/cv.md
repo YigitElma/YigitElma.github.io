@@ -24,24 +24,45 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Undergraduate Researcher: BUSTLab
+  * 2021 October-Present
+  * Istanbul/Turkey
+  * Supervisor: Professor Murat Celik
+  * 
+* Undergraduate Researcher: Max Planck Institute for Intelligent Systems
+  * 2022 June-September
+  * Stuttgart/Germany
+  * Supervisor: Professor Metin Sitti, Mehmet Efe Tiryaki
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Manufacturing Intern: PAKKENS
+  * 2022 January-February
+  * Bursa/Turkey
+
+* R&D Intern: BAYKAR Technologies
+  * 2021 August-September
+  * Istanbul/Turkey
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * C/C++
+  * MATLAB/Simulink
+  * Python
+  * ROS
+* CAD
+  * Solidworks
+  * Fusion 360
+* CAE
+  * Ansys Mechanical and Fluent
+  * ABAQUS
+  * ADAMS
+* OS
+  * Windows
+  * Ubuntu
+* Other Computer Tools
+  * LaTex
+  * Microsoft Office
+  * Inkscape  
 
 Publications
 ======
@@ -61,6 +82,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
