@@ -11,55 +11,55 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mechanical Engineering, Bogazici University, 2018-2023
+* **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
   * GPA: 3.90/4.00 
   * Teams: Bumerang Rocket and Rasat CanSat 
-* B.S. in Physics, Bogazici University, 2019-2023
+* **B.S. in Physics, Bogazici University, 2019-2023**
   * GPA: 3.90/4.00  
   * TUBİTAK 2205 Undergraduate Scholarship for Science Major Students
-* Galatasaray High School, 2012-2017
+* **Galatasaray High School, 2012-2017**
   * GPA: 87.59/100  
   * Activities: Volleyball Team Captain, Guitarist at student band, Art Club Member
 
 
 Work experience
 ======
-* Undergraduate Researcher: BUSTLab
+* Undergraduate Researcher: **BUSTLab**
   * 2021 October-Present
   * Istanbul/Turkey
   * Supervisor: Professor Murat Celik
   * 
-* Undergraduate Researcher: Max Planck Institute for Intelligent Systems
+* Undergraduate Researcher: **Max Planck Institute for Intelligent Systems**
   * 2022 June-September
   * Stuttgart/Germany
   * Supervisor: Professor Metin Sitti, Mehmet Efe Tiryaki
 
-* Manufacturing Intern: PAKKENS
+* Manufacturing Intern: **PAKKENS**
   * 2022 January-February
   * Bursa/Turkey
 
-* R&D Intern: BAYKAR Technologies
+* R&D Intern: **BAYKAR Technologies**
   * 2021 August-September
   * Istanbul/Turkey
   
 Skills
 ======
-* Programming
+* **Programming
   * C/C++
   * MATLAB/Simulink
   * Python
   * ROS
-* CAD
+* **CAD
   * Solidworks
   * Fusion 360
-* CAE
+* **CAE
   * Ansys Mechanical and Fluent
   * ABAQUS
   * ADAMS
-* OS
+* **OS
   * Windows
   * Ubuntu
-* Other Computer Tools
+* **Other Computer Tools
   * LaTex
   * Microsoft Office
   * Inkscape  
