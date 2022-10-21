@@ -44,22 +44,22 @@ Work experience
   
 Skills
 ======
-* **Programming
+* **Programming**
   * C/C++
   * MATLAB/Simulink
   * Python
   * ROS
-* **CAD
+* **CAD**
   * Solidworks
   * Fusion 360
-* **CAE
+* **CAE**
   * Ansys Mechanical and Fluent
   * ABAQUS
   * ADAMS
-* **OS
+* **OS**
   * Windows
   * Ubuntu
-* **Other Computer Tools
+* **Other Computer Tools**
   * LaTex
   * Microsoft Office
   * Inkscape  
