@@ -11,9 +11,16 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechanical Engineering, Bogazici University, 2018-2023
+  * GPA: 3.90/4.00 
+  * Teams: Bumerang Rocket and Rasat CanSat 
+* B.S. in Physics, Bogazici University, 2019-2023
+  * GPA: 3.90/4.00  
+  * TUBİTAK 2205 Scholarship Undergraduate Scholarship for Science Major Students
+* Galatasaray High School, 2012-2017
+  * GPA: 87.59/100  
+  * Activities: Volleyball Team Captain, Guitarist at student band, Art Club Member
+
 
 Work experience
 ======
