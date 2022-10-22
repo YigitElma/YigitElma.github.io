@@ -64,10 +64,10 @@ Skills
 Languages
 ======
 * English
-  * TOEFL: 110/120
-* French: B2
-* Italian: Beginner
-* Turkish: Native
+  * TOEFL:  110/120
+* French:   B2
+* Italian:  Beginner
+* Turkish:  Native
 
 Projects
 ======
