@@ -10,7 +10,7 @@ redirect_from:
 
 Since you are here...
 ------
-I assume you are one of my friends who I forced to check this website, if so thank you :smile:
+I assume you are one of my friends who I forced to check this website, if so thank you :smile: U+1F600
 
 Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
 
