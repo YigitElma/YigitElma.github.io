@@ -7,9 +7,7 @@ redirect_from:
   - /resume
 ---
 [Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)
-
 {% include base_path %}
-
 ## Education
 * **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
   * GPA: 3.90/4.00
@@ -38,18 +36,18 @@ redirect_from:
   * 2021 August-September,   Istanbul/Turkey
 
 ## Skills
-* **Programming:** &emsp; C/C++, MATLAB/Simulink, Python, ROS
-* **CAD:** &emsp; Solidworks, Fusion 360
-* **CAE:** &emsp; Ansys Mechanical and Fluent, ABAQUS, ADAMS
-* **OS:** &emsp; &nbsp; Windows, Ubuntu
-* **Other Computer Tools:** &emsp; LaTex, Microsoft Office, Inkscape  
+* **Programming:** C/C++, MATLAB/Simulink, Python, ROS
+* **CAD:** Solidworks, Fusion 360
+* **CAE:** Ansys Mechanical and Fluent, ABAQUS, ADAMS
+* **OS:** Windows, Ubuntu
+* **Other Computer Tools:** LaTex, Microsoft Office, Inkscape  
 
 ## Languages
-* English
+* **English**
   * TOEFL:  110/120
-* French: &nbsp;B2
-* Italian: &nbsp; Beginner
-* Turkish:  Native
+* **French:** &nbsp;B2
+* **Italian:** &nbsp; Beginner
+* **Turkish:**  Native
 
 ## Projects
 <ul>{% for post in site.portfolio %}
@@ -61,12 +59,12 @@ redirect_from:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-## Talks
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
 ## Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+<!-- ## Teaching
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul> -->
