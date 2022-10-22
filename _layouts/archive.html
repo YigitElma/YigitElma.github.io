@@ -12,7 +12,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<!-- <div id="main" role="main">
   {% include sidebar.html %}
 
   <div class="archive">
@@ -21,4 +21,12 @@ layout: default
     {% endunless %}
     {{ content }}
   </div>
-</div>
+</div> -->
+
+<main class="page-content" aria-label="Content">
+<section class="chapters cf">
+    <div class="wrapper flex-row">
+    {{ content }}
+    </div>
+</section>
+</main>
