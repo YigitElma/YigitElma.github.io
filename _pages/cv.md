@@ -60,8 +60,8 @@ redirect_from:
   {% endfor %}</ul>
 
 ## Teaching
-* **TA:** PHYS101 and 201 (2021-2022 SPRING) <font size="3"> Just take attendance and answer occasional questions, nothing to brag about :) </font>
-* **ATOLYE EGITIM:** Conducted one-to-one physics and mathematics classes for senior high-school students preparing to national exams (LYS-YGS for entering college). Also gave problem sessions and prepared videos for solutions of the weekly exams.
+* ***2021-2022 SPRING*** - **TA:** PHYS101 and 201 <font size="3"> Just take attendance and answer occasional questions, nothing to brag about :) </font>
+* ***2017-2019*** - **ATOLYE EGITIM:** Conducted one-to-one physics and mathematics classes for senior high-school students preparing to national exams (LYS-YGS for entering college). Also gave problem sessions and prepared videos for solutions of the weekly exams.
 
 <!-- ## Teaching
   <ul>{% for post in site.teaching %}
