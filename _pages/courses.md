@@ -12,8 +12,8 @@ redirect_from:
 
 ## Completed Courses
 
-| Semester           | Course Code | Course Title                 | Description   | Grade |
-| ----------------   | ----------- | ---------------------------- | ------------- | ----- |
+| Semester         | Course Code | Course Title             | Description   | Grade |
+| --------------   | ----------- | ------------------------ | ------------- | ----- |
 | 2021/2022 SPRING   |  ME455    |  FLUID MECHANICS II   |               | AA    |
 | 2021/2022 SPRING   |  ME482    |  SP.TOP.IN ME.APPLICATIONS OF THE FINITE   |               | AA    |
 | 2021/2022 SPRING   |  ME492    |  PROJECT   |               | AA    |
