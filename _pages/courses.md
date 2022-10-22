@@ -64,8 +64,7 @@ redirect_from:
 
 ## Currently Taking
 
-* **ME426   - Mechanisms**
-  * Instructor: Evren SAMUR
-
-* **PHYS411 - Quantum Mechanics**
-  * Instructor: Levent AKANT
+  * **ME426   - Mechanisms**
+    * Instructor: Evren SAMUR
+  * **PHYS411 - Quantum Mechanics**
+    * Instructor: Levent AKANT
