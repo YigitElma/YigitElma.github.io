@@ -50,7 +50,7 @@ redirect_from:
 * **Turkish:**  Native
 
 ## Projects
-<ul>{% for post in site.portfolio %}
+<ul>{% for post in site.portfolio reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
@@ -60,9 +60,8 @@ redirect_from:
   {% endfor %}</ul>
 
 ## Teaching
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* **TA:** PHYS101 and 201 (2021-2022 SPRING) &nbsp; (Just take attendance and answer occasional questions, nothing to brag about :))
+* **ATOLYE EGITIM:** Conducted one-to-one physics and mathematics classes for senior high-school students preparing to national exams (LYS-YGS for entering college). Also gave problem sessions and prepared videos for solutions of the weekly exams.
 
 <!-- ## Teaching
   <ul>{% for post in site.teaching %}
