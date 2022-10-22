@@ -60,7 +60,7 @@ redirect_from:
   {% endfor %}</ul>
 
 ## Teaching
-* **TA:** PHYS101 and 201 (2021-2022 SPRING) &nbsp; (Just take attendance and answer occasional questions, nothing to brag about :))
+* **TA:** PHYS101 and 201 (2021-2022 SPRING) &nbsp; *Just take attendance and answer occasional questions, nothing to brag about :)*
 * **ATOLYE EGITIM:** Conducted one-to-one physics and mathematics classes for senior high-school students preparing to national exams (LYS-YGS for entering college). Also gave problem sessions and prepared videos for solutions of the weekly exams.
 
 <!-- ## Teaching
