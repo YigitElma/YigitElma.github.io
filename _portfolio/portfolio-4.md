@@ -1,10 +1,10 @@
 ---
 title: "Compressor, Overdrive and Delay Eﬀect Pedals for Electric Guitar"
-excerpt: "<br/><img src='/images/500x300.png'>"
-img: 500x300.png
+excerpt: "<br/><img src='/images/pedals.png'>"
+img: pedals.png
 collection: portfolio
-date: 2017-07-03 12:55:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+date: 2022-04-12
+description:  # Add post description (optional)
 tag: [Travel, Blogging, Mountains]
 ---
 
