@@ -1,6 +1,6 @@
 ---
-title: "Project 3"
-excerpt: ""
+title: "Weight Compensation Mechanism for an Elastic Metamaterial"
+excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

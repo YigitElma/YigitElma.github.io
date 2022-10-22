@@ -1,5 +1,5 @@
 ---
-title: "Magnetically Actuated Guidewire Design for MRI Scanners"
+title: "Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

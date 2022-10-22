@@ -1,5 +1,5 @@
 ---
-title: "Magnetically Actuated Guidewire Design for MRI Scanners"
+title: "Compressor, Overdrive and Delay Eﬀect Pedals for Electric Guitar"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

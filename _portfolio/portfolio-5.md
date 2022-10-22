@@ -1,5 +1,5 @@
 ---
-title: "Magnetically Actuated Guidewire Design for MRI Scanners"
+title: "Tic Tac Toe Player CNC Pen Plotter"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

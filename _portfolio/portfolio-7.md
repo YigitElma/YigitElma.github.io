@@ -1,5 +1,5 @@
 ---
-title: "Magnetically Actuated Guidewire Design for MRI Scanners"
+title: "Design and Analysis of a Model Satellite"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

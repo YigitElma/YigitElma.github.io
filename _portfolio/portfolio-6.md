@@ -1,5 +1,5 @@
 ---
-title: "Magnetically Actuated Guidewire Design for MRI Scanners"
+title: "3DOF Simulation of a Medium Altitude Rocket"
 excerpt: "<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
