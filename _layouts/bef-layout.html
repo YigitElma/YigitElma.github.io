@@ -1,21 +1,30 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
+<body>
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+  <main class="page-content" aria-label="Content">
+  <section class="chapters cf">
+      <div class="wrapper flex-row">
+      {{ content }}
+      </div>
+  </section>
+  </main>
 
-<main class="page-content" aria-label="Content">
-<section class="chapters cf">
-    <div class="wrapper flex-row">
-    {{ content }}
-    </div>
-</section>
-</main>
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+</html>
