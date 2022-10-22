@@ -50,9 +50,13 @@ redirect_from:
 * **Turkish:**  Native
 
 ## Projects
-<ul>{% for post in site.portfolio reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+* Magnetically Actuated Guidewire Design for MRI Scanners
+* Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
+* Weight Compensation Mechanism for an Elastic Metamaterial
+* Compressor, Overdrive and Delay Eﬀect Pedals for Electric Guitar
+* Tic Tac Toe Player CNC Pen Plotter
+* 3DOF Simulation of a Medium Altitude Rocket
+* Design and Analysis of a Model Satellite
 
 ## Publications
   <ul>{% for post in site.publications %}
