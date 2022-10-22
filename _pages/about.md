@@ -10,11 +10,11 @@ redirect_from:
 
 Since you are here...
 ------
-I assume you are one of my friends who I forced to check this website, if so thank you :D
+I assume you are one of my friends who I forced to check this website, if so thank you :smile:
 
-Maybe you found it while stalking me, then no problem
+Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
 
-Or, fortunately, you are one the professors I wish pursuing PHD/Masters with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me
+Or, fortunately, you are one the professors I wish pursuing PHD/Masters with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
 
 Anyway, let's get to the point!
 ------
@@ -24,4 +24,4 @@ The content here will definitely change later on. Stay tuned for more!
 
 None academic stuff...
 ------
-I love sports and music. Playing guitar is one of my hobbies and I use and learn some skills to improve the setup in home, as you will see in my projects. 
+I love sports and music. Playing guitar is one of my hobbies and I use and learn some skills to improve the setup in home, as you will see in my projects.
