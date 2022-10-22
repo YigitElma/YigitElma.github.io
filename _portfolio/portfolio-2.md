@@ -1,7 +1,7 @@
 ---
 title: "Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code"
-excerpt: "<br/><img src='/images/500x300.png'>"
-img: 500x300.png
+excerpt: "<br/><img src='/images/IonThruster.png'>"
+img: IonThruster.png
 collection: portfolio
 date: 2022-12-05
 description: # Add post description (optional)
