@@ -12,13 +12,10 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
+<main class="page-content" aria-label="Content">
+<section class="chapters cf">
+    <div class="wrapper flex-row">
     {{ content }}
-  </div>
-</div>
+    </div>
+</section>
+</main>

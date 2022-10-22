@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "BEF Projects"
+permalink: /bef-pro/
+author_profile: true
+---
+{% include base_path %}
+
+{% for post in site.portfolio %}
+<div class="chapter">
+  <a href="{{post.url | prepend: site.baseurl}}">
+    {% if post.img %}
+      <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+    {% endif %}
+  </a>
+  <a href="{{post.url | prepend: site.baseurl}}">
+    <div class="chapter_inner">
+      <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+      <h3 class="chapter_title">{{post.title}}</h3>
+    </div>
+  </a>
+</div>
+{% endfor %}
