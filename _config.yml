@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "HOME"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Yiğit Günsür Elmacıoğlu"
 description              : &description "personal description"
