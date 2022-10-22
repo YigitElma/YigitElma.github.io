@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 [Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)
-{% include base_path %}
+<!-- {% include base_path %} -->
 ## Education
 * **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
   * GPA: 3.90/4.00
@@ -60,7 +60,7 @@ redirect_from:
   {% endfor %}</ul>
 
 ## Teaching
-* **TA:** PHYS101 and 201 (2021-2022 SPRING) &nbsp; <font size="0.5">*Just take attendance and answer occasional questions, nothing to brag about :)*</font>
+* **TA:** PHYS101 and 201 (2021-2022 SPRING) &nbsp; <font size="0.8">_Just take attendance and answer occasional questions, nothing to brag about :)_</font>
 * **ATOLYE EGITIM:** Conducted one-to-one physics and mathematics classes for senior high-school students preparing to national exams (LYS-YGS for entering college). Also gave problem sessions and prepared videos for solutions of the weekly exams.
 
 <!-- ## Teaching
