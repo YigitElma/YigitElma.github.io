@@ -41,14 +41,14 @@ redirect_from:
 * **Programming:** &emsp; C/C++, MATLAB/Simulink, Python, ROS
 * **CAD:** &emsp; Solidworks, Fusion 360
 * **CAE:** &emsp; Ansys Mechanical and Fluent, ABAQUS, ADAMS
-* **OS:** &emsp; Windows, Ubuntu
+* **OS:** &emsp; &nbsp; Windows, Ubuntu
 * **Other Computer Tools:** &emsp; LaTex, Microsoft Office, Inkscape  
 
 ## Languages
 * English
   * TOEFL:  110/120
 * French: &nbsp;B2
-* Italian:  Beginner
+* Italian: &nbsp; Beginner
 * Turkish:  Native
 
 ## Projects
