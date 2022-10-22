@@ -38,30 +38,16 @@ redirect_from:
   * 2021 August-September,   Istanbul/Turkey
 
 ## Skills
-* **Programming**
-  * C/C++
-  * MATLAB/Simulink
-  * Python
-  * ROS
-* **CAD**
-  * Solidworks
-  * Fusion 360
-* **CAE**
-  * Ansys Mechanical and Fluent
-  * ABAQUS
-  * ADAMS
-* **OS**
-  * Windows
-  * Ubuntu
-* **Other Computer Tools**
-  * LaTex
-  * Microsoft Office
-  * Inkscape  
+* **Programming:** &emsp; C/C++, MATLAB/Simulink, Python, ROS
+* **CAD:** &emsp; Solidworks, Fusion 360
+* **CAE:** &emsp; Ansys Mechanical and Fluent, ABAQUS, ADAMS
+* **OS:** &emsp; Windows, Ubuntu
+* **Other Computer Tools:** &emsp; LaTex, Microsoft Office, Inkscape  
 
 ## Languages
 * English
   * TOEFL:  110/120
-* French:   B2
+* French: &nbsp;B2
 * Italian:  Beginner
 * Turkish:  Native
 
