@@ -6,9 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+{% include base_path %}
 <a href="/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf" download>Download CV here</a>
-
-<!-- {% include base_path %} -->
 ## Education
 * **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
   * GPA: 3.90/4.00
