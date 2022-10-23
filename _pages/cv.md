@@ -6,9 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<a href="/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf" download>Download CV here html</a>
+<a href="/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf" download>Download CV here</a>
 
-[Download CV here](http://YigitElma.github.io/files/CV_Yigit_Gunsur_Elmacioglu_19_09_2022_academic.pdf)
 <!-- {% include base_path %} -->
 ## Education
 * **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
