@@ -57,13 +57,13 @@
 
 @media (max-width: 399px) {
   .chapters .chapter {
-    grid-template-columns: 95.0%;
+    width: 95.0%;
   }
 }
 
 @media (min-width: 400px) and (max-width: 750px) {
   .chapters .chapter {
-    grid-template-columns: 47.0%;
+    width: 47.0%;
   }
 }
 
