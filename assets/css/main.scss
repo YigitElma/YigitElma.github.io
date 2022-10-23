@@ -61,7 +61,7 @@
   }
 }
 
-@media (min-width: 1001px) and (max-width: 1400px) {
+@media (min-width: 1001px) and (max-width: 1500px) {
   .chapters .chapter {
     width: 48.5%;
   }
@@ -76,6 +76,7 @@
   vertical-align: middle;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  border-radius: 5px:
 }
 
 .chapters .chapter img:hover {
@@ -109,8 +110,8 @@
 }
 
 .chapters .chapter_inner .chapter_title {
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.15rem;
+  font-weight: 500;
   margin: 0 0 0.5rem 0;
 }
 
