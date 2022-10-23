@@ -55,13 +55,13 @@
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 600px) {
   .chapters .chapter {
     width: 95.0%;
   }
 }
 
-@media (min-width: 400px) and (max-width: 750px) {
+@media (min-width: 601px) and (max-width: 1000px) {
   .chapters .chapter {
     width: 47.0%;
   }
