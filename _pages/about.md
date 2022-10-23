@@ -18,7 +18,7 @@ Or, fortunately, you are one the professors I wish pursuing PHD/Masters with. I 
 
 Anyway, let's get to the point!
 ------
-As you probably see on the left side, I'm Yigit Gunsur Elmacioglu. If you don't speak turkish, don't spend time trying to pronounce, it's a bit hard:relaxed: Just "Yi-it" is fine!
+As you probably see on the left side, I'm Yigit Gunsur Elmacioglu. If you don't speak turkish, don't spend time trying to pronounce, it's a bit hard:relaxed: Just "Yee-it" is fine!
 
 The content here will definitely change later on. Stay tuned for more!
 

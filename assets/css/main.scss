@@ -55,6 +55,18 @@
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
+@media (max-width: 399px) {
+  .chapters .chapter {
+    grid-template-columns: 95.0%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 750px) {
+  .chapters .chapter {
+    grid-template-columns: 47.0%;
+  }
+}
+
 .chapters .chapter a {
   text-decoration: none;
 }

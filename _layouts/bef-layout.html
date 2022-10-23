@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  {% include head.html %}
-  {% include head/custom.html %}
-</head>
-<body>
 
-  {% include browser-upgrade.html %}
-  {% include masthead.html %}
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-  <main class="page-content" aria-label="Content">
-  <section class="chapters cf">
-      <div class="wrapper-bef flex-row-bef">
-      {{ content }}
-      </div>
-  </section>
-  </main>
+  <body>
 
-  <div class="page__footer">
-    <footer>
-      {% include footer/custom.html %}
-      {% include footer.html %}
-    </footer>
-  </div>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-  {% include scripts.html %}
+    <main class="page-content" aria-label="Content">
+      <section class="chapters cf">
+        <div class="wrapper-bef flex-row-bef">
+          {{ content }}
+        </div>
+      </section>
+    </main>
 
-</body>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+
 </html>
