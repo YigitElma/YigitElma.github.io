@@ -43,10 +43,9 @@ redirect_from:
 * **Other Computer Tools:** LaTex, Microsoft Office, Inkscape  
 
 ## Languages
-* **English**
-  * TOEFL:  110/120
-* **French:** &nbsp;B2
-* **Italian:** &nbsp; Beginner
+* **English:** Advanced - TOEFL: 110/120
+* **French:** B2
+* **Italian:**  Beginner
 * **Turkish:**  Native
 
 ## Projects
