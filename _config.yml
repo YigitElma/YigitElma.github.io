@@ -133,7 +133,7 @@ collections:
     permalink: /:collection/:path/
   project:
     output: true
-    permalink: /collection/path/
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
