@@ -6,8 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Download Transcript here](http://YigitElma.github.io/files/Transcript.pdf)
-
+<a href="/files/Transcript.pdf" download>Download Transcript here</a>
 {% include base_path %}
 
 ## Completed Courses
