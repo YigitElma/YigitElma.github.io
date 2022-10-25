@@ -43,7 +43,7 @@ redirect_from:
 | 2019/2020 SPRING   | ME242       | DYNAMICS                             | PASS    |
 | 2019/2020 SPRING   | ME263       | THERMODYNAMICS I                     | AA      |
 | 2019/2020 SPRING   | TK222       | TURKISH FOR NATIVE SPEAKERS II       | PASS    |
-| 2019/2020 FALL     | PHYS201     | PHYSICS III             | AA    |
+| 2019/2020 FALL     | PHYS201     | PHYSICS III (ELECTROMAGNETISM)           | AA    |
 | 2019/2020 FALL     | MATH201     | MATRIX THEORY           | BA    |
 | 2019/2020 FALL     | EE210       | INTRODUCTION TO ELECTRICAL ENGINEERING | AA    |
 | 2019/2020 FALL     | ME207       | PROBABILITY&STATISTICS FOR ME    | AA    |
@@ -59,7 +59,7 @@ redirect_from:
 | 2018/2019 FALL     | CMPE150     | INTRODUCTION TO COMPUTING    |   AA    |
 | 2018/2019 FALL     | EC101       | PRINCIPLES OF MICROECONOMICS |   BB    |
 | 2018/2019 FALL     | MATH101     | CALCULUS I                   |   AA    |
-| 2018/2019 FALL     | PHYS101     | PHYSICS I                    |   AA    |
+| 2018/2019 FALL     | PHYS101     | PHYSICS I (MECHANICS)                    |   AA    |
 
 
 ## Currently Taking
