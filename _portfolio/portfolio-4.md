@@ -1,7 +1,7 @@
 ---
 title: "Compressor, Overdrive and Delay Eﬀect Pedals for Electric Guitar"
-excerpt: "<br/><img src='/images/pedals.png'>"
-img: pedals.png
+excerpt: "<br/><img src='/images/pedals.webp'>"
+img: pedals.webp
 collection: portfolio
 date: 2022-04-12
 description:  # Add post description (optional)

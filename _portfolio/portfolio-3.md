@@ -1,7 +1,7 @@
 ---
 title: "Weight Compensation Mechanism for an Elastic Metamaterial"
-excerpt: "<br/><img src='/images/weightComp.png'>"
-img: weightComp.png
+excerpt: "<br/><img src='/images/weightComp.webp'>"
+img: weightComp.webp
 collection: portfolio
 date: 2021-01-03
 description:  # Add post description (optional)

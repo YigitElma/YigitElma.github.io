@@ -1,7 +1,7 @@
 ---
 title: "Tic Tac Toe Player CNC Pen Plotter"
-excerpt: "<br/><img src='/images/XOX.png'>"
-img: XOX.png
+excerpt: "<br/><img src='/images/XOX.webp'>"
+img: XOX.webp
 collection: portfolio
 date: 2017-07-03 12:55:00 +0300
 description:  # Add post description (optional)

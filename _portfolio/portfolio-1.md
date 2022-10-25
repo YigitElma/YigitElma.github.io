@@ -1,7 +1,7 @@
 ---
 title: "Magnetically Actuated Guidewire Design for MRI Scanners"
-excerpt: "<br/><img src='/images/magnetic.png'>"
-img: magnetic.png
+excerpt: "<br/><img src='/images/magnetic.webp'>"
+img: magnetic.webp
 collection: portfolio
 date: 2022-07-09
 description: # Add post description (optional)

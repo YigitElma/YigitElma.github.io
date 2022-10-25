@@ -1,7 +1,7 @@
 ---
 title: "Design and Analysis of a Model Satellite"
-excerpt: "<br/><img src='/images/rasat.png'>"
-img: rasat.png
+excerpt: "<br/><img src='/images/rasat.webp'>"
+img: rasat.webp
 collection: portfolio
 date: 2021-02-03
 description:  # Add post description (optional)
