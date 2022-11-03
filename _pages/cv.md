@@ -20,7 +20,7 @@ redirect_from:
   * Activities: Volleyball Team Captain, Guitarist at student band, Art Club Member
 
 
-## Work experience
+## Experience
 * **Undergraduate Researcher: BUSTLab**
   * 2021 October-Present,    Istanbul/Turkey
   * Supervisor: Professor Murat Celik
