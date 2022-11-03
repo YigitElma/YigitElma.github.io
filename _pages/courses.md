@@ -11,8 +11,8 @@ redirect_from:
 
 ## Completed Courses
 
-| Semester       | Course Code | Course Title               | Grade | Instructor |
-| -------------  | -------     | ----------------------  | -- | ----- |
+| Semester       | Course Code | Course Title                              | Grade     | Instructor |
+| -------------  | -------     | ----------------------                    | --        | -----      |
 | 21/22 SPRING   |  ME455      | FLUID MECHANICS II                        | **AA**    | Kunt ATALIK |
 | 21/22 SPRING   |  ME482      | SP.TOP.IN ME.APPLICATIONS OF THE FINITE   | **AA**    | Şebnem ÖZÜPEK |
 | 21/22 SPRING   |  ME492      | PROJECT                                   | **AA**    | Çetin YILMAZ  |
@@ -22,11 +22,11 @@ redirect_from:
 | 21/22 FALL     |  PHYS401    | ELECTROMAGNETISM I                        | **AA**    | Teoman TURGUT  |
 | 21/22 FALL     |  PSY101     | INTRODUCTION TO PSYCHOLOGY                | BB        | Gaye SOLEY     |
 | 20/21 SPRING   |  ME304      | EXPERIMENTAL ENGINEERING                  | **AA**    | Evren SAMUR  |
-| 20/21 SPRING   |  ME318      | MANUFACTURING TECHNIQUES                  | **AA**    | Sabri Altıntaş  |
+| 20/21 SPRING   |  ME318      | MANUFACTURING TECHNIQUES                  | **AA**    | Sabri ALTINTAŞ  |
 | 20/21 SPRING   |  ME324      | MACHINE DESIGN I                          | **AA**    | Fazıl Önder SÖNMEZ  |
 | 20/21 SPRING   |  ME335      | MODELING & CONTROL OF DYNAMIC SYSTEMS     | **AA**    | Sinan ÖNCÜ  |
 | 20/21 SPRING   |  ME3521     | HEAT TRANSFER                             | **AA**    | Hakan ERTÜRK  |
-| 20/21 SPRING   |  PHYS312    | MODERN PHYSICS II                         | PASS      | İlmar Gahramanov  |
+| 20/21 SPRING   |  PHYS312    | MODERN PHYSICS II                         | PASS      | İlmar GAHRAMANOV  |
 | 20/21 FALL     |  ME303      | COMPUTER APPLICATIONS IN MECHANICAL ENG   | **AA**    | Murat ÇELİK  |
 | 20/21 FALL     |  ME331      | MECHATRONICS                              | **AA**    | Sinan ÖNCÜ  |
 | 20/21 FALL     |  ME345      | MECHANICS OF MATERIALS                    | **AA**    | Şebnem ÖZÜPEK |
