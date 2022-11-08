@@ -26,6 +26,6 @@ The content here will definitely change later on. Stay tuned for more!
 
 None academic stuff...
 ------
-By growing up with 2 architects, I believe I have obtained a good aesthetic vision and I care a lot about the visual quality of my projects as much as the content (that's one of the reasons why I made this website :smile:). Maybe that's why I am good at geometry, sometimes I solve geometry problems as a hobby. 
+By growing up with 2 architects, I believe I have obtained a good aesthetic vision and I care a lot about the visual quality of my projects as much as the content. Maybe that's why I am good at geometry, sometimes I solve geometry problems as a hobby, and why I made this website :smile:. 
 
-Also, I love riding a bike. Even in Istanbul which is a very steep city, by the way, I travel mostly on my e-bike, I know it's cheating but after 2 years of effort, I needed one.
+Also, I love riding a bike. Even in Istanbul which is a very hilly city, by the way, I travel mostly on my e-bike, I know it's cheating but after 2 years of effort, I needed one.
