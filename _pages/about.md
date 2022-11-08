@@ -10,11 +10,11 @@ redirect_from:
 
 Since you are here...
 ------
-I assume you are one of my friends who I forced to check this website, if so thank you :smile:
+- **a)** I assume you are one of my friends who I forced to check this website, if so thank you :smile:
 
-Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
+- **b)** Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
 
-Or, fortunately, you are one of the professors I wish to pursue Ph.D./Master with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
+- **c)** Or, fortunately, you are one of the professors I wish to pursue Ph.D./Master with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
 
 Anyway, let's get to the point!
 ------
