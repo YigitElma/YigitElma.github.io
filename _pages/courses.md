@@ -34,30 +34,30 @@ redirect_from:
 | 20/21 FALL     |  PHIL131    | LOGIC I                                   | **AA**    | Frank ZENKER  |
 | 20/21 FALL     |  PHYS311    | MODERN PHYSICS I                          | **AA**    | Levent AKANT  |
 | 19/20 SUMMER   | PHSY325     | MATHEMATICAL METHODS OF PHYSICS I         | *PASS\**  | Metin ARIK  |
-| 19/20 SUMMER   | HTR311      | HISTORY OF THE TURKISH REPUBLIC I         | *PASS\**  |               |
-| 19/20 SPRING   | MATH202     | DIFFERENTIAL EQUATIONS                    | *PASS\**  |              |
+| 19/20 SUMMER   | HTR311      | HISTORY OF THE TURKISH REPUBLIC I         | *PASS\**  | Cengiz KIRLI |
+| 19/20 SPRING   | MATH202     | DIFFERENTIAL EQUATIONS                    | *PASS\**  | Arzu BOYSAL |
 | 19/20 SPRING   | PHYS302     | CLASSICAL MECHANICS II                    | *PASS\**  | Serdar NERGİZ  |
 | 19/20 SPRING   | PHYS345     | CLASSICAL ASTRONOMY                       | PASS      | Nihal ERCAN   |
 | 19/20 SPRING   | ME212       | MATERIALS SCIENCE                         | **AA**    | Sertan ALKAN  |
 | 19/20 SPRING   | ME242       | DYNAMICS                                  | *PASS\**  | Evren SAMUR  |
 | 19/20 SPRING   | ME263       | THERMODYNAMICS I                          | **AA**    | Murat ÇELİK  |
-| 19/20 SPRING   | TK222       | TURKISH FOR NATIVE SPEAKERS II            | *PASS\**  |              |
+| 19/20 SPRING   | TK222       | TURKISH FOR NATIVE SPEAKERS II            | *PASS\**  | Şerife Seda YÜCEKURT ÜNLÜ |
 | 19/20 FALL     | PHYS201     | PHYSICS III (ELECTROMAGNETISM)            | **AA**    | İbrahim SEMİZ   |
-| 19/20 FALL     | MATH201     | MATRIX THEORY                             | BA        |    |
+| 19/20 FALL     | MATH201     | MATRIX THEORY                             | BA        | Özlem BEYARSLAN   |
 | 19/20 FALL     | EE210       | INTRODUCTION TO ELECTRICAL ENGINEERING    | **AA**    | Oğuzhan ÇİÇEKOĞLU |
 | 19/20 FALL     | ME207       | PROBABILITY&STATISTICS FOR ME             | **AA**    | Ali ECDER  |
 | 19/20 FALL     | ME241       | STATICS                                   | **AA**    | Sertan ALKAN  |
 | 19/20 FALL     | PHYS221     | THERMAL PROPERTIES OF MATTER              | **AA**    | Özhan ÖZATAY  |
-| 19/20 FALL     | TK221       | TURKISH FOR NATIVE SPEAKERS I             | **AA**    |        |
+| 19/20 FALL     | TK221       | TURKISH FOR NATIVE SPEAKERS I             | **AA**    | Şerife Seda YÜCEKURT ÜNLÜ |
 | 18/19 SPRING   | EC102       | PRINCIPLES OF MACROECONOMICS              | **AA**    | Kıvanç KARAMAN  |
-| 18/19 SPRING   | ENGG110     | ENGINEERING GRAPHICS                      | **AA**    |       |
-| 18/19 SPRING   | MATH102     | CALCULUS II                               | **AA**    |      |
+| 18/19 SPRING   | ENGG110     | ENGINEERING GRAPHICS                      | **AA**    | İlyas İSTİF |
+| 18/19 SPRING   | MATH102     | CALCULUS II                               | **AA**    | Arzu BOYSAL  |
 | 18/19 SPRING   | ME120       | INTRODUCTION TO MECHANICAL ENGINEERING    | BA        | Gülin VARDAR   |
 | 18/19 SPRING   | PHYS130     | THERMODYN., WAVES, OPTICS & MODERN PHYS.  | **AA**    | Aşkın ANKAY    |
-| 18/19 FALL     | CHEM105     | FUNDAMENTALS OF CHEMISTRY                 | BA        |          |
-| 18/19 FALL     | CMPE150     | INTRODUCTION TO COMPUTING                 | **AA**    |       |
+| 18/19 FALL     | CHEM105     | FUNDAMENTALS OF CHEMISTRY                 | BA        | Fatma Ahu AKIN |
+| 18/19 FALL     | CMPE150     | INTRODUCTION TO COMPUTING                 | **AA**    | Mehmet Kaan ÖZTÜRK  |
 | 18/19 FALL     | EC101       | PRINCIPLES OF MICROECONOMICS              | BB        | Murat KIRDAR  |
-| 18/19 FALL     | MATH101     | CALCULUS I                                | **AA**    |          |
+| 18/19 FALL     | MATH101     | CALCULUS I                                | **AA**    | Burak GÜREL  |
 | 18/19 FALL     | PHYS101     | PHYSICS I (MECHANICS)                     | **AA**    | Aşkın ANKAY  |
 
 **\***  *Due to COVID, a letter grade was not offered by the instructor* 
