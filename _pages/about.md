@@ -26,8 +26,8 @@ The content here will definitely change later on. Stay tuned for more!
 
 None academic stuff...
 ------
-By growing up with 2 architects, I believe I have obtained a good aesthetic vision and I care a lot about the visual quality of my projects as much as the content. Maybe that's why I am good at geometry, sometimes I solve geometry problems as a hobby, and why I made this website :smile:. 
+By growing up with 2 architects, I believe I have obtained a good aesthetic vision and I care a lot about the visual quality of my projects as much as the content. Maybe that's why I made this website :smile:. Furthermore, getting accustomed to architectural drawings at a young age, made me like and be good at geometry, sometimes I solve geometry problems as a hobby.
 
-I love riding a bike. Even in Istanbul which is a very hilly city, by the way, I travel mostly on my e-bike, I know it's cheating but after 2 years of effort, I needed one. Also, in my free time, I play acoustic and electro guitar (depending on my mood). In high school, I was in a band, and if I'll ever have the chance again, I really want to play with others.
+I love riding a bike. Even in Istanbul which is a very hilly city, by the way, I travel mostly on my e-bike, I know it's cheating but after 2 years of effort, I needed one. Also, in my free time, I play acoustic and electro guitar (depending on my mood). In high school, I was in a band, and if I'll ever have the chance again, I want to play with others.
 
-In primary school, I was a swimmer. For 7 years, I spent a lot of time in pool, training. I believe in young age, training with a professional choach gives you a certain understanding of respect and demureness. In addition, when swimming 5 km per single training session, you have soo.. much time thinking. Maybe, that's why I like brainstorming by myself.
+In primary school, I was a swimmer. For 7 years, I spent a lot of time in the pool, training. I believe at a young age, training with a professional coach gives you a certain understanding of respect and demureness. In addition, when swimming 5 km per single training session, you have soo.. much time to think. Maybe, that's why I like brainstorming by myself.
