@@ -12,11 +12,11 @@ Since you are here...
 ------
 <div align="justify">
 
-**a -** I assume you are one of my friends who I forced to check this website, if so thank you :smile:
+<b>a -</b> I assume you are one of my friends who I forced to check this website, if so thank you :smile:
 
-**b -** Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
+<b>b -</b> Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
 
-**c -** Or, fortunately, you are one of the professors I wish to pursue Ph.D./Master with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
+<b>c -</b> Or, fortunately, you are one of the professors I wish to pursue Ph.D./Master with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
 </div>
 
 Anyway, let's get to the point!
@@ -24,7 +24,7 @@ Anyway, let's get to the point!
 <div align="justify">
 As you probably see on the left side (if you are on desktop), I'm Yiğit Günsür Elmacıoğlu. If you don't speak turkish, don't spend time trying to pronounce, it's a bit hard :relaxed: Just "Yee-it" is fine!
 
-I’m a senior mechanical engineering and physics double major undergraduate student at Boğaziçi University which is a highly prestigious school with most of its students placed in 0.1% in the nationwide exam. With a 3.90 GPA, I am currently the top student in the mechanical engineering department. My systematic and aesthetic problem-solving abilities are the key factors of my success which are acquired after years of observation of 2 architects <sup>***mom&sister***</sup> and a computer engineer <sup>***father***</sup>, my life-long mentors. 
+I’m a senior mechanical engineering and physics double major undergraduate student at Boğaziçi University which is a highly prestigious school with most of its students placed in 0.1% in the nationwide exam. With a 3.90 GPA, I am currently the top student in the mechanical engineering department. My systematic and aesthetic problem-solving abilities are the key factors of my success which are acquired after years of observation of 2 architects <sup><i><b>mom&sister</b></i></sup> and a computer engineer <sup><i><b>father</b></i></sup>, my life-long mentors. 
 
 The content here will definitely change later on. Stay tuned for more!
 </div>
