@@ -20,7 +20,7 @@ Your browser does not support the video tag.
 </center>
 <br />
 <div align="justify">
-Some electric propulsion methods include pressure-feed thrust, where the pressure results from the repulsive electric force between ionized gas molecules. The type of system that we are interested in is ion thrusters. They generate plasma by exciting the initially neutral Xenon gas and accelerating it between anode and cathode grids, specifically screen and acceleration grids. High electric potential difference causes a strong electric field in this region. The grid region is the equivalent of the converging-diverging nozzle in liquid-fueled engines, except that there is an electric force rather than thermodynamic effects during compressible flow.
+Some electric propulsion methods include pressure-feed thrust, where the pressure results from the repulsive electric force between ionized gas molecules. The type of system that we are interested in is ion thrusters. They generate plasma by exciting the initially neutral Xenon gas and accelerating it between anode and cathode grids, specifically screen and acceleration grids. High electric potential difference causes a strong electric field in this region. The grid region is the equivalent of the converging-diverging nozzle in liquid-fueled engines, except that there is an electric force rather than thermodynamic effects of compressible flow.
 </div>
 
 <center>
