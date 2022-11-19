@@ -12,7 +12,7 @@ There are many types of propulsion systems used in space applications. The most 
 Your browser does not support the video tag.
 </video>
 <center><u><i><b>Ion Charge Density Result</b></i></u></center>
-
+<br />
 Some electric propulsion methods include pressure-feed thrust where the pressure results from the repulsive electric force between ionized gas molecules. The type of system that we are interested in is ion thrusters. They generate plasma by exciting the initially neutral Xenon gas and accelerate it between anode and cathode grids, more specifically screen and acceleration grids. High electric potential causes strong electric field in this region. The grid region is the exact equivalent of the converging-diverging nozzle in liquid fueled engines, except that there is electric force rather than thermodynamic effects during compressible flow.
 
 <img src="/images/electricPotential.png" alt="Electric Potential" style="resolution=150dpi;"/>
@@ -26,5 +26,5 @@ Two types of solvers are used to extract electric potential at mesh nodes from d
 Your browser does not support the video tag.
 </video>
 <center><u><i><b>Ion Charge Density Result if Screen Grid Reflected Ions as Ions</b></i></u></center>
-
+<br />
 The last video may be misleading but it is an aestetically pleasing simulation, you can see the reflected wave later constructs a Mach diamond-like shape. At first, the reflection of ions from screen grid was permitted, but as it turns out, just as acceleration grid, screen grid to cause ions to lose their charge and reflect back as neutrals. 
