@@ -9,7 +9,7 @@ There are many types of propulsion systems used in space applications. The most 
 
 Some electric propulsion methods include pressure-feed thrust where the pressure results from the repulsive electric force between ionized gas molecules. The type of system that we are interested in is ion thrusters. They generate plasma by exciting the initially neutral Xenon gas and accelerate it between anode and cathode grids, more specifically screen and acceleration grids. High electric potential causes strong electric field in this region. The grid region is the exact equivalent of the converging-diverging nozzle in liquid fueled engines, except that there is electric force rather than thermodynamic effects during compressible flow.
 
-![Electric Potential](images/electricPotential.png)
+<img src="/images/electricPotential.png" alt="Electric Potential"/>
 
 A custom finite element code is written in C++ to compute electric potential from Poisson's equation, derive resultant electric field, create ion and neutral macroparticles, move them with electric force and apply collisions or reflections if necessary. ***"PIC"*** stands for *Particle in Cell* method in which motion of the particles executed continuously but a weighting procedure is used to assign them to nearby mesh nodes to be able to solve the finite element equations. ***DSMC*** is acronym for *Direct Simulation Monte-Carlo*. In my opinion, it is a fancy way of saying probability:smile: However, it is extremely useful when an analytical model will be computationally heavier. For our case, we use DSMC to find whether or not a collision has occured, assignment of initial velocity of ions using Maxwellian Velocity Distribution and position assignment for particles to enter into the domain.
 
