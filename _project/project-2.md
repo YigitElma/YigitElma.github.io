@@ -6,14 +6,13 @@ date: 2022-12-05
 ---
 <div align="justify">
 There are many types of propulsion systems used in space applications. The most general category is liquid-fueled high-thrust rocket engines used during the mission's ascent phase. Generally, these engines fire for around 100-120 seconds with extremely high amounts of thrust. Another category is electrified propulsion which uses ionized Xenon gas. Even though they have little thrust compared to their liquid-fueled counterparts, they become beneficial for their efficiency and precision during course correction burns. Long space missions using multiple gravity assists or communications satellites rely on them for their unique properties.
-
+<br />
 <center>
 <video class="projectVideo" muted autoplay loop>
   <source src="/videos/FlowSimulationWithoutRef.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </center>
-<br />
 <center>
 <u><i><b>Ion Charge Density Result</b></i></u>
 </center>
