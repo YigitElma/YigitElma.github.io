@@ -40,6 +40,11 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.projectVideo{
+  width: 750px;
+  height: 303px;
+}
+
 .chapters {
   padding: 2rem 0;
 }
@@ -61,6 +66,9 @@
   }
   .yigit-custom{
     display: none;
+  }
+  projectVideo{
+    width: 90%;
   }
 }
 

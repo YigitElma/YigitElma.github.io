@@ -21,7 +21,7 @@ A custom finite element code is written in C++ to compute electric potential fro
 
 Two types of solvers are used to extract electric potential at mesh nodes from discretized Poisson's equation. To optimize the code using the symmetries of the system, we only simulate the triangular prism volume, and use cylindirical coordinates to construct equations. Neumann and Dirichlet boundary conditions are used to specify grid walls and boundaries of the simulation domain.
 
-<video width="750" height="303" muted autoplay loop>
+<video class="projectVideo" muted autoplay loop>
   <source src="/videos/FlowSimulationWithReflection.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
