@@ -7,7 +7,7 @@ date: 2022-12-05
 
 There are many types of propulsion systems used in space applications. The most known category is liquid fueled high thrust rocket engines which are used during the ascend phase of the mission. Generally, these engines fire around 100-120 seconds with extremely high amounts of thrust. Another category is electrified propulsion which uses ionized Xenon gas. Even though they have negligible thrust compared to liquid fueled counterparts, they become beneficial for their efficiency and precision during course correction burns. Long space missions using multiple gravity assists or communications satellites rely on them for their special properties.
 
-<video width="750" height="303" autoplay loop muted>
+<video width="750" height="303" muted autoplay loop>
   <source src="/videos/FlowSimulationWithoutReflection.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -20,7 +20,7 @@ A custom finite element code is written in C++ to compute electric potential fro
 
 Two types of solvers are used to extract electric potential at mesh nodes from discretized Poisson's equation. To optimize the code using the symmetries of the system, we only simulate the triangular prism volume, and use cylindirical coordinates to construct equations. Neumann and Dirichlet boundary conditions are used to specify grid walls and boundaries of the simulation domain.
 
-<video width="750" height="303" autoplay loop muted>
+<video width="750" height="303" muted autoplay loop>
   <source src="/videos/FlowSimulationWithReflection.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
