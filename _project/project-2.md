@@ -5,9 +5,6 @@ collection: project
 date: 2022-12-05
 ---
 
-PLEASE CHECK LATER FOR CONTENT
-I WILL COMPLETE THIS PAGE AS SOON AS POSSIBLE
-
 There are many types of propulsion systems used in space applications. The most known category is liquid fueled high thrust rocket engines which are used during the ascend phase of the mission. Generally, these engines fire around 100-120 seconds with extremely high amounts of thrust. Another category is electrified propulsion which uses ionized Xenon gas. Even though they have negligible thrust compared to liquid fueled counterparts, they become beneficial for their efficiency and precision during course correction burns. Long space missions using multiple gravity assists or communications satellites rely on them for their special properties.
 
 Some electric propulsion methods include pressure-feed thrust where the pressure results from the repulsive electric force between ionized gas molecules. The type of system that we are interested in is ion thrusters. They generate plasma by exciting the initially neutral Xenon gas and accelerate it between anode and cathode grids, more specifically screen and acceleration grids. High electric potential causes strong electric field in this region. The grid region is the exact equivalent of the converging-diverging nozzle in liquid fueled engines, except that there is electric force rather than thermodynamic effects during compressible flow.
