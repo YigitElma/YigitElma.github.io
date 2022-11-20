@@ -1,0 +1,33 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+<style>
+  .pub_title{
+    color:black;
+    font-size: large;
+  }
+  .pub_date{
+    color:black;
+    font-size: small;
+  }
+  .pub_status{
+    color:rgb(95, 0, 0);
+    font-size: small;
+  }
+</style>
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  <div>
+    <a href="{{post.url | prepend: site.baseurl}}">
+      <div>
+        <p class="pub_title">{{post.title}}</p>
+        <p class="pub_date">{{post.date | date: '%M,%Y'}}</p>
+      </div>
+    </a>
+  </div>
+{% endfor %}
