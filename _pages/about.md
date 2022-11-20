@@ -44,3 +44,8 @@ I love riding a bike. Even in Istanbul which is a very hilly city, by the way, I
 <p align="justify">
 In primary school, I was a swimmer. For 7 years, I spent a lot of time in the pool, training. I believe at a young age, training with a professional coach gives you a certain understanding of respect and demureness. In addition, when swimming 5 km per single training session, you have soo.. much time to think. Maybe, that's why I like brainstorming by myself.
 </p>
+
+<center>
+<img src="/images/nephews.jpg" alt="My nephews" style="width:60.0%;"/>
+<div><u><i><b>The cutest nephews ever !</b></i></u></div>
+</center>
