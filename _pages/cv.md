@@ -58,9 +58,11 @@ redirect_from:
 * Design and Analysis of a Model Satellite
 
 ## Publications
+  <ul>
   {% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}
+  </ul>
 
 ## Teaching
 * ***2021-2022 SPRING*** - **TA:** PHYS101 and 201 <font size="3"> Just take attendance and answer occasional questions, nothing to brag about :smile: </font>
