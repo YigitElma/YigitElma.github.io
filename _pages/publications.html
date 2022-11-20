@@ -18,11 +18,11 @@ author_profile: true
     margin: 5px;
   }
   .pub_status{
-    color:rgb(95, 0, 0);
-    font-size: medium;
     display: flex;
     flex-direction: row;
     justify-content: left;
+    color:rgb(95, 0, 0);
+    font-size: medium; 
     margin: 5px;
   }
 </style>
@@ -37,6 +37,8 @@ author_profile: true
       </div>
     </a>
     <div class="pub_status"><b>Status:</b> &emsp; {{post.status}}</div>
-    <div class="pub_date">{{post.date | date: '%M,%Y'}}</div>
+    {{if post.date}}
+     <div class="pub_date">{{post.date | date: '%Y'}}</div>
+    {{endif}}
   </div>
 {% endfor %}
