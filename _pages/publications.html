@@ -26,6 +26,10 @@ author_profile: true
     font-size: medium; 
     margin: 5px;
   }
+  .pub-flex{
+    display: flex;
+    flex-direction: row;
+  }
 </style>
 
 {% include base_path %}
@@ -37,9 +41,12 @@ author_profile: true
         <p class="pub_title">{{post.title}}</p>
       </div>
     </a>
-    <div class="pub_status"><b>Status:</b> &emsp; {{post.status}}
+    <div class="pub-flex">
+      <div class="pub_status">
+        <b>Status:</b> &emsp; {{post.status}}
+      </div>
       {{if post.date}}
-      <div class="pub_date">{{post.date | date: '%Y'}}
+        <div class="pub_date">{{post.date | date: '%Y'}}</div>
       {{endif}}
     </div>
   </div>
