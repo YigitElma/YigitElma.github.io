@@ -10,12 +10,18 @@ author_profile: true
     font-size: large;
   }
   .pub_date{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
     color:black;
     font-size: small;
   }
   .pub_status{
     color:rgb(95, 0, 0);
     font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
   }
 </style>
 
@@ -26,8 +32,9 @@ author_profile: true
     <a href="{{post.url | prepend: site.baseurl}}">
       <div>
         <p class="pub_title">{{post.title}}</p>
-        <p class="pub_date">{{post.date | date: '%M,%Y'}}</p>
       </div>
     </a>
+    <div class="pub_status">{{post.status}}</div>
+    <div class="pub_date">{{post.date | date: '%M,%Y'}}</div>
   </div>
 {% endfor %}
