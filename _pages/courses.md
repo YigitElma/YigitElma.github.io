@@ -4,7 +4,7 @@ title: "Transcript"
 permalink: /courses/
 author_profile: true
 redirect_from:
-  - /resume
+  - /courses/
 ---
 <a href="/files/Transcript.pdf" download>Download Transcript here</a>
 {% include base_path %}
