@@ -20,16 +20,16 @@
   }
 </style>
 
-<div class="{{ include.type | default: "list" }}__item">
+<!-- <div class="{{ include.type | default: "list" }}__item"> -->
   <!-- <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> -->
     <li>
-    <h3 class="pub-title">
+    <div class="pub-title">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h3>
+    </div>
     </li>
  <!-- </article> -->
-</div>
+<!-- </div> -->
