@@ -12,13 +12,13 @@ Since you are here...
 ------
 <div align="justify">
 
-<b>a -</b> I assume you are one of my friends who I forced to check this website, if so thank you :smile:
+<b>a) </b> I assume you are one of my friends who I forced to check this website, if so thank you :smile:
 <br />
 
-<b>b -</b> Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
+<b>b) </b> Maybe you found it while stalking me, then no problem :stuck_out_tongue_winking_eye:
 <br />
 
-<b>c -</b> Or, fortunately, you are one of the professors I wish to pursue Ph.D./Master with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
+<b>c) </b> Or, fortunately, you are one of the professors I wish to pursue Ph.D./Master with. I am honored to be able to get your attention. Hope this website can give you a better understanding of me :relaxed:
 </div>
 
 Anyway, let's get to the point!

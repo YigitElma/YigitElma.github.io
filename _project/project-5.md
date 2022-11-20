@@ -13,7 +13,7 @@ Your browser does not support the video tag.
 </center>
 
 <center>
-<img src="/images/xox-workflow.png" alt="General workflow of the system" style="width:60.0%;margin-top:8px;margin-bottom:8px;border-radius:5px;"/>
+<img src="/images/xox-workflow.png" alt="General workflow of the system" style="width:80.0%;margin-top:8px;margin-bottom:8px;border-radius:5px;"/>
 </center>
 
 <center>
