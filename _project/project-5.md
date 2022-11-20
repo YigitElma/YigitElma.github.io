@@ -5,5 +5,10 @@ collection: project
 date: 2017-07-03 
 ---
 
-PLEASE CHECK LATER FOR CONTENT
-I WILL COMPLETE THIS PAGE AS SOON AS POSSIBLE
+<center>
+<video style="width:80.0%;border-radius: 2px;" controls>
+  <poster src="/images/XOX.webp">
+  <source src="/videos/tic-tac-toe-player.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</center>
