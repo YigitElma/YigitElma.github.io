@@ -47,5 +47,5 @@ In primary school, I was a swimmer. For 7 years, I spent a lot of time in the po
 
 <center>
 <img src="/images/nephews.jpg" alt="My nephews" style="width:60.0%;"/>
-<div><u><i><b>The cutest nephews ever !</b></i></u></div>
+<div><u><i>The cutest nephews ever !</i></u></div>
 </center>
