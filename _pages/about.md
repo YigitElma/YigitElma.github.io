@@ -27,7 +27,7 @@ Anyway, let's get to the point!
 As you probably see on the left side (if you are on desktop), I'm Yiğit Günsür Elmacıoğlu. If you don't speak turkish, don't spend time trying to pronounce, it's a bit hard :relaxed: Just "Yee-it" is fine!
 </p>
 <p align="justify">
-I’m a senior mechanical engineering and physics double major undergraduate student at Boğaziçi University which is a highly prestigious school with most of its students placed in 0.1% in the nationwide exam. With a 3.90 GPA, I am currently the top student in the mechanical engineering department. My systematic and aesthetic problem-solving abilities are the key factors of my success which are acquired after years of observation of 2 architects <sup><i><b>mom&sister</b></i></sup> and a computer engineer <sup><i><b>father</b></i></sup>, my life-long mentors. 
+I’m a senior mechanical engineering and physics double major undergraduate student at Boğaziçi University, a highly prestigious school with most students scoring 0.1% on the nationwide exam. With a 3.90 GPA, I am currently the top student in the mechanical engineering department. My systematic and aesthetic problem-solving abilities form a substantial part of my personality, acquired after years of observation of 2 architects<sup><i><b>mom&sister</b></i></sup> and a computer engineer<sup><i><b>father</b></i></sup>, my life-long mentors. 
 </p>
 <p align="justify">
 The content here will definitely change later on. Stay tuned for more!
