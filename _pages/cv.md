@@ -21,7 +21,7 @@ redirect_from:
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  cv-div.img {
+  .cv-div img {
     width: 10.0%;
     object-fit: contain;
     margin-right: 25px;
