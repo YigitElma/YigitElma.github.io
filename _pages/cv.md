@@ -6,34 +6,109 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+<style>
+  .cv-div{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .cv-title{
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .cv-info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .cv-image{
+    width: 10.0%;
+    object-fit: contain;
+    margin-right: 25px;
+  }
+</style>
+
+
 {% include base_path %}
 <a href="/files/CV.pdf" download>Download CV here</a>
 ## Education
-* **B.S. in Mechanical Engineering, Bogazici University, 2018-2023**
-  * GPA: 3.90/4.00
-  * Teams: Bumerang Rocket and Rasat CanSat
-* **B.S. in Physics, Bogazici University, 2019-2023**
-  * GPA: 3.90/4.00  
-  * TUBİTAK 2205 Undergraduate Scholarship for Science Major Students
-* **Galatasaray High School, 2012-2017**
-  * GPA: 87.59/100  
-  * Activities: Volleyball Team Captain, Guitarist at student band, Art Club Member
 
+<div class='cv-div'>
+  <img src="/images/logos/boun.jpg" alt="BOUN" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">B.S. in Mechanical Engineering, Bogazici University, 2018-2023</div>
+    <ul>
+      <li> <b>GPA:</b> 3.90/4.00
+      <li> <b>Teams:</b> Bumerang Rocket and Rasat CanSat
+    </ul>
+  </div>
+</div>
+
+<div class='cv-div'>
+  <img src="/images/logos/boun.jpg" alt="BOUN" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">B.S. in Physics, Bogazici University, 2019-2023</div>
+    <ul>
+      <li> <b>GPA:</b> 3.90/4.00
+      <li> TUBİTAK 2205 Undergraduate Scholarship for Science Major Students
+    </ul>
+  </div>
+</div>
+
+<div class='cv-div'>
+  <img src="/images/logos/GSL.png" alt="GSL" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">Galatasaray High School, 2012-2017</div>
+    <ul>
+      <li> <b>GPA:</b> 87.59/100  
+      <li> <b>Activities:</b> Volleyball Team Captain, Guitarist at student band, Art Club Member
+    </ul>
+  </div>
+</div>
 
 ## Experience
-* **Undergraduate Researcher: BUSTLab**
-  * 2021 October-Present,    Istanbul/Turkey
-  * Supervisor: Professor Murat Celik
 
-* **Undergraduate Researcher: Max Planck Institute for Intelligent Systems**
-  * 2022 June-September,     Stuttgart/Germany
-  * Supervisor: Professor Metin Sitti, Mehmet Efe Tiryaki
+<div class='cv-div'>
+  <img src="/images/logos/boun.jpg" alt="BOUN" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">Undergraduate Researcher: BUSTLab</div>
+    <ul>
+      <li> 2021 October-Present,    Istanbul/Turkey
+      <li> <b>Supervisor:</b> Professor Murat Celik
+    </ul>
+  </div>
+</div>
 
-* **Manufacturing Intern: PAKKENS**
-  * 2022 January-February,   Bursa/Turkey
+<div class='cv-div'>
+  <img src="/images/logos/MPI.jpg" alt="MPI" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">Undergraduate Researcher: Max Planck Institute for Intelligent Systems</div>
+    <ul>
+      <li> 2022 June-September,     Stuttgart/Germany
+      <li> <b>Supervisor:</b> Professor Metin Sitti, Mehmet Efe Tiryaki
+    </ul>
+  </div>
+</div>
 
-* **R&D Intern: BAYKAR Technologies**
-  * 2021 August-September,   Istanbul/Turkey
+
+<div class='cv-div'>
+  <img src="/images/logos/pakkens.jfif" alt="Pakkens" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">Manufacturing Intern: PAKKENS</div>
+    <ul>
+      <li> 2022 January-February,   Bursa/Turkey
+    </ul>
+  </div>
+</div>
+
+<div class='cv-div'>
+  <img src="/images/logos/baykar.png" alt="Baykar" class="cv-image"/>
+  <div class="cv-info">
+    <div class="cv-title">R&D Intern: BAYKAR Technologies</div>
+    <ul>
+      <li> 2021 August-September,   Istanbul/Turkey
+    </ul>
+  </div>
+</div>
 
 ## Skills
 * **Programming:** C/C++, MATLAB/Simulink, Python, ROS
