@@ -56,7 +56,7 @@ redirect_from:
 </div>
 
 <div class='cv-div'>
-  <img src="/images/logos/GSL.png" alt="GSL"/>
+  <img src="/images/logos/GSL.PNG" alt="GSL"/>
   <div class="cv-info">
     <div class="cv-title">Galatasaray High School, 2012-2017</div>
     <ul>
