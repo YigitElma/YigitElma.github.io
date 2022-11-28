@@ -21,7 +21,7 @@ redirect_from:
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .cv-image{
+  cv-div.img {
     width: 10.0%;
     object-fit: contain;
     margin-right: 25px;
@@ -34,7 +34,7 @@ redirect_from:
 ## Education
 
 <div class='cv-div'>
-  <img src="/images/logos/boun.jpg" alt="BOUN" class="cv-image"/>
+  <img src="/images/logos/boun.jpg" alt="BOUN"/>
   <div class="cv-info">
     <div class="cv-title">B.S. in Mechanical Engineering, Bogazici University, 2018-2023</div>
     <ul>
@@ -45,7 +45,7 @@ redirect_from:
 </div>
 
 <div class='cv-div'>
-  <img src="/images/logos/boun.jpg" alt="BOUN" class="cv-image"/>
+  <img src="/images/logos/boun.jpg" alt="BOUN"/>
   <div class="cv-info">
     <div class="cv-title">B.S. in Physics, Bogazici University, 2019-2023</div>
     <ul>
@@ -56,7 +56,7 @@ redirect_from:
 </div>
 
 <div class='cv-div'>
-  <img src="/images/logos/GSL.png" alt="GSL" class="cv-image"/>
+  <img src="/images/logos/GSL.png" alt="GSL"/>
   <div class="cv-info">
     <div class="cv-title">Galatasaray High School, 2012-2017</div>
     <ul>
@@ -69,7 +69,7 @@ redirect_from:
 ## Experience
 
 <div class='cv-div'>
-  <img src="/images/logos/boun.jpg" alt="BOUN" class="cv-image"/>
+  <img src="/images/logos/boun.jpg" alt="BOUN"/>
   <div class="cv-info">
     <div class="cv-title">Undergraduate Researcher: BUSTLab</div>
     <ul>
@@ -80,7 +80,7 @@ redirect_from:
 </div>
 
 <div class='cv-div'>
-  <img src="/images/logos/MPI.jpg" alt="MPI" class="cv-image"/>
+  <img src="/images/logos/MPI.jpg" alt="MPI"/>
   <div class="cv-info">
     <div class="cv-title">Undergraduate Researcher: Max Planck Institute for Intelligent Systems</div>
     <ul>
@@ -92,7 +92,7 @@ redirect_from:
 
 
 <div class='cv-div'>
-  <img src="/images/logos/pakkens.jfif" alt="Pakkens" class="cv-image"/>
+  <img src="/images/logos/pakkens.jfif" alt="Pakkens"/>
   <div class="cv-info">
     <div class="cv-title">Manufacturing Intern: PAKKENS</div>
     <ul>
@@ -102,7 +102,7 @@ redirect_from:
 </div>
 
 <div class='cv-div'>
-  <img src="/images/logos/baykar.png" alt="Baykar" class="cv-image"/>
+  <img src="/images/logos/baykar.png" alt="Baykar"/>
   <div class="cv-info">
     <div class="cv-title">R&D Intern: BAYKAR Technologies</div>
     <ul>
