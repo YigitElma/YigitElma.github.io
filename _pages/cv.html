@@ -5,50 +5,11 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<style>
-  .cv-top-title{
-    height: 70px;
-    font-size: 28px;
-    font-weight: 700;
-    margin-top: 15px;
-    color: rgb(18, 117, 117);
-  }
-  .cv-div{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-  }
-  .cv-title{
-    font-weight: 700;
-    font-size: large;
-  }
-  .cv-info{
-    width: 85.0%;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    font-size: medium;
-  }
-  .cv-image {
-    width: 8.0%;
-    object-fit: contain;
-    margin-right: 25px;
-    margin-top: 10px;
-  }
-  .cv-div ul{
-    margin-top: 2px;
-  }
-  h2{
-    margin-top: 25px;
-    margin-bottom: 18px;
-    color: rgb(18, 117, 117);
-  }
-</style>
-
 <div class="cv-top-title"> CV </div>
 
 {% include base_path %}
 <a href="/files/CV.pdf" download>Download CV here</a>
-<h2>Education</h2>
+<h2 class="cv-head">Education</h2>
 
 <div class="cv-div">
   <div class="cv-image">
@@ -92,7 +53,7 @@ redirect_from:
   </div>
 </div>
 
-<h2>Experience</h2>
+<h2 class="cv-head">Experience</h2>
 
 <div class="cv-div">
   <div class="cv-image">
@@ -153,7 +114,7 @@ redirect_from:
   </div>
 </div>
 
-<h2>Skills</h2>
+<h2 class="cv-head">Skills</h2>
 <ul>
   <li> <b>Programming:</b> C/C++, MATLAB/Simulink, Python, ROS
   <li> <b>CAD:</b> Solidworks, Fusion 360
@@ -162,7 +123,7 @@ redirect_from:
   <li> <b>Other Computer Tools:</b> LaTex, Microsoft Office, Inkscape 
 </ul>
 
-<h2>Languages</h2>
+<h2 class="cv-head">Languages</h2>
 <ul>
   <li> <b>English:</b> Advanced - TOEFL: 104/120
   <li> <b>French:</b> B2
@@ -170,7 +131,7 @@ redirect_from:
   <li> <b>Turkish:</b> Native
 </ul>
 
-<h2>Projects</h2>
+<h2 class="cv-head">Projects</h2>
 <ul>
   <li>Magnetically Actuated Guidewire Design for MRI Scanners
   <li>Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
@@ -181,14 +142,14 @@ redirect_from:
   <li>Design and Analysis of a Model Satellite
 </ul>
 
-<h2>Publications</h2>
+<h2 class="cv-head">Publications</h2>
   <ul>
   {% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}
   </ul>
 
-<h2>Teaching</h2>
+<h2 class="cv-head">Teaching</h2>
 <div class="cv-div">
   <div class="cv-image">
     <a href="https://www.boun.edu.tr/en-US/Index"><img src="/images/logos/boun.jpg" alt="BOUN"/></a>

@@ -40,7 +40,7 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-// CSS for about me page 
+// CSS for about me page =======================
 .content-bef {
   position: absolute;
   width: 70%;
@@ -79,6 +79,45 @@
   border: 5px solid white;
 }
 
+// CSS for CV page   ================================
+.cv-top-title{
+  height: 70px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 15px;
+  color: rgb(18, 117, 117);
+}
+.cv-div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 100%;
+}
+.cv-title{
+  font-weight: 700;
+  font-size: large;
+}
+.cv-info{
+  width: 85.0%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: medium;
+}
+.cv-image {
+  width: 8.0%;
+  object-fit: contain;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.cv-div ul{
+  margin-top: 2px;
+}
+.cv-head h2{
+  margin-top: 25px;
+  margin-bottom: 18px;
+  color: rgb(18, 117, 117);
+}
+// =============================  
 
 
 .projectVideo{
