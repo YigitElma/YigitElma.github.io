@@ -8,27 +8,8 @@
 
   <body>
     {% include masthead.html %}
-
-    <div class="title-container">
-      <img src="/images/wallpaper.jpg" alt="Wallpaper" style="height: 100%;width: 100%;">
-      <div class="content-bef">
-        <div class="profile">
-          <img src="/images/cv1.jpg" alt="{{ author.name }}">
-        </div>
-        <h1 class="title">{{site.author.name}}</h1>
-        <h2 class="sub_title">{{site.author.bio}}</h2>
-      </div>
-    </div>
-
-    <div id="main" role="main">
-      <div class="page-content" aria-label="Content">
-        <section class="chapters cf">
-          <div class="wrapper-bef-2 flex-row-bef">
-            {{ content }}
-          </div>
-        </section>
-      </div>
-    </div>
+    
+    {{content}}
     
     <div class="page__footer">
       <footer>
