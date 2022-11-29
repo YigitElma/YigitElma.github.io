@@ -39,6 +39,8 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+
 # Analytics
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
