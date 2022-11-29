@@ -24,24 +24,42 @@
         line-height: 2.5rem;
         font-style: italic;
       }
+      .title-container {
+        position: relative;
+        text-align: center;
+        color: rgb(17,142,172);
+        margin: 0;
+        width: 100%;
+      }
+      .title-bottom-left {
+        position: absolute;
+        font-size: 34px;
+        font-weight: 700;
+        bottom: 8px;
+        left: 16px;
+      }
     </style>
   </head>
 
   <body>
     {% include masthead.html %}
-
-    <section id="banner" data-vide-bg="{{site.baseurl}}/assets/video/{% if site.video %}{{ site.video }}{% endif %}" data-vide-options="posterType: jpg, loop: true, muted: false, position: 50% 50%">
-      <div class="wrapper-bef">
-        <div class="content-bef">
-          <h1 class="title">{{site.author.name}}</h1>
-          <h2 class="sub_title">{{site.author.bio}}</h2>
-        </div>
+   
+    <!-- <div class="title-container">
+      <img src="/images/wallpaper.png" alt="Wallpaper" style="width:100%;">
+      <div class="title-bottom-left">About Me</div>
+    </div> -->
+    <div class="wrapper-bef">
+      <img src="/images/wallpaper.png" alt="Wallpaper" style="width:100%;">
+      <div class="content-bef">
+        <h1 class="title">{{site.author.name}}</h1>
+        <h2 class="sub_title">{{site.author.bio}}</h2>
       </div>
-    </section> 
+    </div>
+
 
     <main class="page-content" aria-label="Content">
       <section class="chapters cf">
-        <div class="wrapper-bef flex-row-bef">
+        <div class="wrapper-bef-2 flex-row-bef">
           {{ content }}
         </div>
       </section>
