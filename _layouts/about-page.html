@@ -40,6 +40,10 @@
         bottom: 8px;
         left: 16px;
       }
+      .content-bef .profile{
+        border-radius: 50%;
+        width: 100px;
+      }
     </style>
   </head>
 
@@ -50,12 +54,8 @@
       <div class="title-container">
         <img src="/images/wallpaper.png" alt="Wallpaper" style="width:100%;">
         <div class="content-bef">
-          <div class="author__avatar">
-            {% if author.avatar contains "://" %}
-              <img src="{{ author.avatar }}" alt="{{ author.name }}">
-            {% else %}
-              <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
-            {% endif %}
+          <div class="profile">
+            <img src="/images/cv1.jpg" alt="{{ author.name }}">
           </div>
           <h1 class="title">{{site.author.name}}</h1>
           <h2 class="sub_title">{{site.author.bio}}</h2>
