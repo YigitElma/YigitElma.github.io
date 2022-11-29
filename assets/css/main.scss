@@ -43,7 +43,8 @@
 // CSS for about me page =======================
 .about-page{
   width: 80%;
-  text-align: center;
+  display: flex;
+  align-content: center;
 }
 .content-bef {
   position: absolute;
