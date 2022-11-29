@@ -32,16 +32,9 @@
         margin: 0;
         width: 100%;
       }
-      .title-bottom-left {
-        position: absolute;
-        font-size: 34px;
-        font-weight: 700;
-        bottom: 8px;
-        left: 16px;
-      }
       .content-bef .profile img{
         border-radius: 50%;
-        width: 100px;
+        width: 25%;
       }
     </style>
   </head>
@@ -49,18 +42,18 @@
   <body>
     {% include masthead.html %}
 
-    <section>
-      <div class="title-container">
-        <img src="/images/wallpaper.jpg" alt="Wallpaper" style="width:100%;">
-        <div class="content-bef">
-          <div class="profile">
-            <img src="/images/cv1.jpg" alt="{{ author.name }}">
-          </div>
-          <h1 class="title">{{site.author.name}}</h1>
-          <h2 class="sub_title">{{site.author.bio}}</h2>
+
+    <div class="title-container">
+      <img src="/images/wallpaper.jpg" alt="Wallpaper" style="width:100%;">
+      <div class="content-bef">
+        <div class="profile">
+          <img src="/images/cv1.jpg" alt="{{ author.name }}">
         </div>
+        <h1 class="title">{{site.author.name}}</h1>
+        <h2 class="sub_title">{{site.author.bio}}</h2>
       </div>
-    </section>
+    </div>
+
 
     <div id="main" role="main">
       <div class="page-content" aria-label="Content">
