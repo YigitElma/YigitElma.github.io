@@ -108,6 +108,8 @@
   .yigit-custom{
     display: none;
   }
+}
+@media (max-width: 800px) {
   .cv-image img{
     display: none;
   }
@@ -129,6 +131,13 @@
   .title-container {
     width: 100%;
     aspect-ratio: 1/2;
+  }
+  .wrapper-bef-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content-bef .profile img{
+    width: 100px;
   }
 }
 
