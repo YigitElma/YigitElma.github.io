@@ -75,9 +75,15 @@
     width: 0.0%;
     margin-right: 8px;
   }
-  .title-container {
-    width: 100%;
-    aspect-ratio: 2/4;
+  .content-bef .title {
+    font-size: 25px;
+    margin: 0 0 1rem 0;
+  }
+  .content-bef .sub_title {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 auto 2rem auto;
+    font-style: italic;
   }
 }
 
