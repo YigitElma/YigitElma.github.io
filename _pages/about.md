@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -10,6 +9,28 @@ redirect_from:
 
 Since you are here...
 ------
+<style>
+  .title-container {
+    position: relative;
+    text-align: center;
+    color: rgb(36, 145, 247);
+  }
+
+  /* Bottom left text */
+  .title-bottom-left {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 700;
+    bottom: 8px;
+    left: 16px;
+  }
+</style>
+
+<div class="container">
+  <img src="/images/wallpaper.webp" alt="Wallpaper" style="width:100%;">
+  <div class="bottom-left">About Me</div>
+</div>
+
 <div align="justify">
 
 <b>a) </b> I assume you are one of my friends who I forced to check this website, if so thank you :smile:
