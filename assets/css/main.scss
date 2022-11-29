@@ -75,7 +75,10 @@
     width: 0.0%;
     margin-right: 8px;
   }
-
+  .title-container {
+    width: 100%;
+    aspect-ratio: 1/2;
+  }
 }
 
 // @media (min-width: 1001px) and (max-width: 1500px) {
