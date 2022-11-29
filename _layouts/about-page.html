@@ -4,12 +4,44 @@
     {% include head.html %}
     {% include head/custom.html %}
     <title>Yigit Elmacioglu</title>
+    <style>
+      .content-bef {
+        position: relative;
+        padding: 12rem 0 12rem 0;
+      }
+      .content-bef .title, .content-bef .sub_title {
+        text-align: center;
+        color: #ffffff;
+      }
+      .content-bef .title {
+        font-size: 3.5rem;
+        margin: 0 0 1rem 0;
+      }
+      .content-bef .sub_title {
+        font-weight: 400;
+        font-size: 1.35rem;
+        margin: 0 auto 2rem auto;
+        line-height: 2.5rem;
+        font-style: italic;
+      }
+    </style>
   </head>
 
   <body>
     {% include masthead.html %}
 
-    {{ content }}
+    <section id="banner" data-vide-bg="{{site.baseurl}}/assets/video/{% if site.video %}{{ site.video }}{% endif %}" data-vide-options="posterType: jpg, loop: true, muted: false, position: 50% 50%">
+      <div class="wrapper-bef">
+        <div class="content-bef">
+          <h1 class="title">{{site.author.name}}</h1>
+          <h2 class="sub_title">{{site.author.bio}}</h2>
+        </div>
+      </div>
+    </section> 
+
+    <main class="archive">
+      {{ content }}
+    </main>
 
     <div class="page__footer">
       <footer>
