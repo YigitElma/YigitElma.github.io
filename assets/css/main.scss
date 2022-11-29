@@ -101,15 +101,13 @@
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .chapters .chapter {
     width: 97.0%;
   }
   .yigit-custom{
     display: none;
   }
-}
-@media (max-width: 800px) {
   .cv-image img{
     display: none;
   }
@@ -144,11 +142,11 @@
   }
 }
 
-// @media (min-width: 1001px) and (max-width: 1500px) {
-//   .chapters .chapter {
-//     width: 48.5%;
-//   }
-// }
+@media (min-width: 701px) and (max-width: 1100px) {
+  .chapters .chapter {
+    width: 48.5%;
+  }
+}
 
 .chapters .chapter a {
   text-decoration: none;
