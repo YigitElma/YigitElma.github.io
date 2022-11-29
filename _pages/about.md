@@ -6,9 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-Since you are here...
-------
 <style>
   .title-container {
     position: relative;
@@ -31,6 +28,8 @@ Since you are here...
   <div class="bottom-left">About Me</div>
 </div>
 
+Since you are here...
+------
 <div align="justify">
 
 <b>a) </b> I assume you are one of my friends who I forced to check this website, if so thank you :smile:
