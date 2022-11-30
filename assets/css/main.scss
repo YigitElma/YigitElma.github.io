@@ -62,16 +62,16 @@
 .content-bef .title, .content-bef .sub_title {
   text-align: center;
   color: rgb(18, 55, 65);
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 .content-bef .title {
   font-size: 39px;
   margin: 0 0 1rem 0;
 }
 .content-bef .sub_title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 29px;
-  margin: 0 auto 2rem auto;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  margin: 0 auto 0 auto;
   font-style: italic;
 }
 .title-container {
