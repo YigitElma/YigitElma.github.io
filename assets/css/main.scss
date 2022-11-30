@@ -41,6 +41,10 @@
 @import "print";
 
 // CSS for about me page =======================
+.center-page{
+  display: flex;
+  justify-content: center;
+}
 .about-page{
   width: 80%;
   display: flex;
