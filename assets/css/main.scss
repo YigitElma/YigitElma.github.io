@@ -44,7 +44,7 @@
 .about-page{
   width: 80%;
   display: flex;
-  align-content: center;
+  flex-direction: column;
   justify-content: center;
 }
 .content-bef {
@@ -264,6 +264,6 @@
 
 .flex-row-bef-2 {
   display: flex;
-  flex-wrap: center;
+  flex-wrap: wrap;
 }
 
