@@ -6,4 +6,12 @@ date: 2021-01-03
 ---
 
 PLEASE CHECK LATER FOR CONTENT
+
 I WILL COMPLETE THIS PAGE AS SOON AS POSSIBLE
+
+<center>
+<video class="projectVideo" muted autoplay loop>
+  <source src="/videos/me429_design.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</center>
