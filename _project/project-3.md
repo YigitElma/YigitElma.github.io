@@ -5,9 +5,7 @@ collection: project
 date: 2021-01-03
 ---
 
-PLEASE CHECK LATER FOR CONTENT
-
-I WILL COMPLETE THIS PAGE AS SOON AS POSSIBLE
+PAGE UNDER CONSTRUCTION
 
 <center>
 <video class="projectVideo" muted autoplay loop>
