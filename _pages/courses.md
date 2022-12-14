@@ -1,11 +1,18 @@
 ---
 layout: archive
-title: "Transcript"
 permalink: /courses/
 author_profile: true
 redirect_from:
   - /resume
 ---
+<div style="width: 100%;
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 20px;
+            color: rgb(17,142,172);
+            align-items: center;">
+  Transcript
+</div>
 <a href="/files/Transcript.pdf" download>Download Transcript here</a>
 {% include base_path %}
 
