@@ -33,8 +33,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  <div>
+{% for post in site.publication-prep reversed %}
+  <!-- <div>
     <a href="{{post.url | prepend: site.baseurl}}">
       <div>
         <p class="pub_title">{{post.title}}</p>
@@ -48,5 +48,9 @@ author_profile: true
         <div class="pub_date">{{post.date | date: '%Y'}}</div>
       {{endif}}
     </div>
-  </div>
+  </div> -->
+  {% include archive-single.html %}
+{% endfor %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
 {% endfor %}
