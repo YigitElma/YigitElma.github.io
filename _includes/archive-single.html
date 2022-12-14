@@ -31,30 +31,28 @@
       <h2 class="archive__item-title" itemprop="headline">
           {{ title }}
       </h2>
-    </a>
     
-
-    {% if post.collection == 'teaching' %}
-      <div style="width: 100%; margin-top:10px;margin-bottom:5px;"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-    {% elsif post.collection == 'publications' %}
-      <div style="width: 100%; margin-top:10px;margin-bottom:5px;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-    {% elsif post.collection == 'publication-prep' %}
-      <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-    {% elsif post.collection == 'conferences' %}
-      <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-    {% elsif post.collection == 'dissertations' %}
-      <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-    {% endif %}
-
-
-    <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
-      {% if post.authors %}
-        <div><b>Authors: </b> <i>{{ post.authors }}</i> </div>
+      {% if post.collection == 'teaching' %}
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+      {% elsif post.collection == 'publications' %}
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+      {% elsif post.collection == 'publication-prep' %}
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+      {% elsif post.collection == 'conferences' %}
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+      {% elsif post.collection == 'dissertations' %}
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
       {% endif %}
-      
-      {% if post.paperurl %}
-        <div style="margin-left: 25px;"><a href=" {{ post.paperurl }} ">Download</a></div>
-      {% endif %}
-    </div>      
+
+      <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
+        {% if post.authors %}
+          <div><b>Authors: </b> <i>{{ post.authors }}</i> </div>
+        {% endif %}
+        
+        {% if post.paperurl %}
+          <div style="margin-left: 25px;"><a href=" {{ post.paperurl }} ">Download</a></div>
+        {% endif %}
+      </div>   
+    </a>   
   </article>
 </div>
