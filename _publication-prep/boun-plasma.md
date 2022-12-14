@@ -5,6 +5,7 @@ permalink: /publication/paper-2
 status: 'In Preparation'
 date: 2022-12-05
 venue: In Preparation
+authors: Elmacioglu, Y.; Turkoz, E.; Sik, F.; Celik, M.
 ---
 
 PAGE UNDER CONSTRUCTION
