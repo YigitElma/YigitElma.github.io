@@ -121,6 +121,17 @@
   color: rgb(17,142,172);
   border-bottom: 1px solid $border-color;
 }
+.cv-links{
+  width: 100%;
+  font-size: large;
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color: rgb(17,142,172);
+    font-size: larger;
+  }
+}
 // =============================  
 
 
@@ -264,5 +275,8 @@
 @media (min-width: 701px) and (max-width: 1100px) {
   .chapters .chapter {
     width: 48.5%;
+  }
+  .no-display-on-mobile{
+    display: none;
   }
 }

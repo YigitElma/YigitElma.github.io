@@ -138,6 +138,14 @@ redirect_from:
 </ul>
 
 <h2 class="cv-head">Projects</h2>
+% for post in site.projects %}
+  <li>
+    <div class="cv-links">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </div>
+  </li>
+{% endfor %}
+<!-- 
 <ul>
   <li>Magnetically Actuated Guidewire Design for MRI Scanners
   <li>Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
@@ -146,13 +154,20 @@ redirect_from:
   <li>Tic Tac Toe Player CNC Pen Plotter
   <li>3DOF Simulation of a Medium Altitude Rocket
   <li>Design and Analysis of a Model Satellite
-</ul>
+</ul> -->
 
 <h2 class="cv-head">Publications</h2>
-<ul>
+% for post in site.publication-prep %}
+  <li>
+    <div class="cv-links">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </div>
+  </li>
+{% endfor %}
+<!-- <ul>
   <li>Magnetically Actuated Guidewire Design for MRI Scanners
   <li>Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
-</ul>
+</ul> -->
 
 <h2 class="cv-head">Teaching</h2>
 <div class="cv-div">
@@ -164,7 +179,7 @@ redirect_from:
     <div class="cv-title">Teaching Assistant: Bogazici University</div>
     <div class="cv-date"><i class="fa fa-calendar"></i> &emsp; 2021-2022 SPRING</div>
     <ul>
-      <li> PHYS101 and 201 <font size="3"> Just take attendance and answer occasional questions, nothing to brag about :smile: </font>
+      <li> PHYS101 and 201 <font size="3"> (Just take attendance and answer occasional questions, nothing to brag about :smile:) </font>
     </ul>
   </div>
 </div>
