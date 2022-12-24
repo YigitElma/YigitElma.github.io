@@ -94,6 +94,11 @@
   font-weight: 700;
   font-size: large;
 }
+.cv-date{
+  font-weight: 500;
+  font-size: large;
+  font-style: italic;
+}
 .cv-info{
   width: 85.0%;
   margin-top: 3px;
@@ -245,7 +250,7 @@
   .content-bef .profile img{
     width: 140px;
   }
-  .cv-title{
+  .cv-title, .cv-date{
     font-size: 16px;
   }
   .cv-info{
