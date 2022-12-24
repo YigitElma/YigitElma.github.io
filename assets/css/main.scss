@@ -209,14 +209,9 @@
   .no-display-on-mobile{
     display: none;
   }
-  // .cv-image img{
-  //   display: none;
-  // }
   .cv-image{
-    // display: none;
-    // width: 0.0%;
     width: 18.0%;
-    margin-right: 8px;
+    margin-right: 15px;
   }
   .cv-div li{
     margin-left: 2px;
@@ -241,7 +236,7 @@
   .content-bef .profile img{
     width: 140px;
   }
-  .cv-info{
+  .cv-info, .cv-head{
     width: 100%;
     font-size: small;
   }
