@@ -209,12 +209,13 @@
   .yigit-custom{
     display: none;
   }
-  .cv-image img{
-    display: none;
-  }
+  // .cv-image img{
+  //   display: none;
+  // }
   .cv-image{
-    display: none;
-    width: 0.0%;
+    // display: none;
+    // width: 0.0%;
+    width: 10.0%;
     margin-right: 8px;
   }
   .content-bef .title {
@@ -243,12 +244,12 @@
   .cv-div{
     width: 98%;
   }
-  .cv-top-title, .cv-head, .cv-title{
-    text-align: center;
-  }
-  .center-text{
-    text-align: center;
-  }
+  // .cv-top-title, .cv-head, .cv-title{
+  //   text-align: center;
+  // }
+  // .center-text{
+  //   text-align: center;
+  // }
 }
 
 @media (min-width: 701px) and (max-width: 1100px) {
