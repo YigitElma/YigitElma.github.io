@@ -123,13 +123,11 @@
 }
 .cv-links{
   font-size: large;
-  .cv-links a{
-    text-decoration: none;
-  }
-  .cv-links a:hover{
-    color: rgb(17,142,172);
-    font-size: larger;
-  }
+  text-decoration: none;
+}
+.cv-links:hover{
+  color: rgb(17,142,172);
+  font-size: larger;
 }
 // =============================  
 

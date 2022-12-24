@@ -139,13 +139,8 @@ redirect_from:
 
 <h2 class="cv-head">Projects</h2>
 {% for post in site.project reversed %} 
-  <li class="cv-links">
-    {% if post.link %}
-      HELLO WORLD
-      <!-- <a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a> -->
-    {% else %}
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-    {% endif %}
+  <li>
+      <a href="{{ base_path }}{{ post.url }}" class="cv-links" rel="permalink">{{ post.title }}</a>
   </li>
 {% endfor %}
 
@@ -163,13 +158,7 @@ redirect_from:
 <h2 class="cv-head">Publications</h2>
 {% for post in site.publication-prep reversed%} 
   <li>
-    <div class="cv-links">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-      {% endif %}
-    </div>
+    <a href="{{ base_path }}{{ post.url }}" class="cv-links" rel="permalink">{{ post.title }}</a>
   </li>
 {% endfor %}
 
