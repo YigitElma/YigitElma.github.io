@@ -138,13 +138,14 @@ redirect_from:
 </ul>
 
 <h2 class="cv-head">Projects</h2>
-% for post in site.project %}
+% for post in site.project reversed %}
   <li>
     <div class="cv-links">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </div>
   </li>
 {% endfor %}
+
 <!-- 
 <ul>
   <li>Magnetically Actuated Guidewire Design for MRI Scanners
@@ -157,13 +158,14 @@ redirect_from:
 </ul> -->
 
 <h2 class="cv-head">Publications</h2>
-% for post in site.publication-prep %}
+% for post in site.publication-prep reversed%}
   <li>
     <div class="cv-links">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </div>
   </li>
 {% endfor %}
+
 <!-- <ul>
   <li>Magnetically Actuated Guidewire Design for MRI Scanners
   <li>Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
