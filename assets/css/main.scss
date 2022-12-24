@@ -206,7 +206,7 @@
   .chapters .chapter {
     width: 99.0%;
   }
-  .yigit-custom{
+  .no-display-on-mobile{
     display: none;
   }
   // .cv-image img{
@@ -215,8 +215,11 @@
   .cv-image{
     // display: none;
     // width: 0.0%;
-    width: 10.0%;
+    width: 18.0%;
     margin-right: 8px;
+  }
+  .cv-div ul{
+    margin-left: 1px;
   }
   .content-bef .title {
     font-size: 29px;
@@ -244,12 +247,6 @@
   .cv-div{
     width: 98%;
   }
-  // .cv-top-title, .cv-head, .cv-title{
-  //   text-align: center;
-  // }
-  // .center-text{
-  //   text-align: center;
-  // }
 }
 
 @media (min-width: 701px) and (max-width: 1100px) {
