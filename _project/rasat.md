@@ -22,7 +22,6 @@ RASAT Team designed a CanSat that can communicate with a ground station and, aft
 <div align="justify">
 During our preparation, we conducted weekly meetings with the whole team, including electronics and software groups. Thanks to those meetings, I got accustomed to their jargon and learned many new terms.
 </div>
-<br />
 
 <center>
 <video style="width:50.0%;border-radius: 2px;" muted autoplay loop>

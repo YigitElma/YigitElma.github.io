@@ -16,7 +16,7 @@ Your browser does not support the video tag.
 </video>
 </center>
 <center>
-<u><i><b>Ion Charge Density Result</b></i></u>
+<u><b>Ion Charge Density Result</b></u>
 </center>
 <br />
 <div align="justify">
@@ -41,7 +41,7 @@ Your browser does not support the video tag.
 </video>
 </center>
 <center>
-<u><i><b>Ion Charge Density Result if Screen Grid Reflected Ions as Ions</b></i></u></center>
+<u><b>Ion Charge Density Result if Screen Grid Reflected Ions as Ions</b></u></center>
 <br />
 
 <div align="justify">
