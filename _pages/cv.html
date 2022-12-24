@@ -138,17 +138,7 @@ redirect_from:
 </ul>
 
 <h2 class="cv-head">Projects</h2>
-% for post in site.project reversed %}
-  <li>
-    <div class="cv-links">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-      {% endif %}
-    </div>
-  </li>
-{% endfor %}
+{% for post in site.project reversed %} {include archive-single-cv.html} {% endfor %}
 
 <!-- 
 <ul>
@@ -162,17 +152,7 @@ redirect_from:
 </ul> -->
 
 <h2 class="cv-head">Publications</h2>
-% for post in site.publication-prep reversed%}
-<li>
-  <div class="cv-links">
-    {% if post.link %}
-      <a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-    {% else %}
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-    {% endif %}
-  </div>
-</li>
-{% endfor %}
+{% for post in site.publication-prep reversed%} {include archive-single-cv.html} {% endfor %}
 
 <!-- <ul>
   <li>Magnetically Actuated Guidewire Design for MRI Scanners

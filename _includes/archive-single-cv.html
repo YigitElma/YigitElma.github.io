@@ -11,17 +11,9 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-<!-- <style>
-  .pub_title{
-    color:black;
-    font-size: large;
-    font-weight: 600;
-    margin: 8px;
-  }
-</style>
 
 <li>
-  <div class="pub_title">
+  <div class="cv-links">
     {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
     {% else %}
@@ -30,9 +22,4 @@
   </div>
 </li> -->
 
-<li>
-  <div class="cv-links">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-  </div>
-</li>
 
