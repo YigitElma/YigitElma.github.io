@@ -140,7 +140,7 @@ redirect_from:
 <h2 class="cv-head">Projects</h2>
 {% for post in site.project reversed %} 
   <li>
-      <a href="{{ base_path }}{{ post.url }}" class="cv-links" rel="permalink">{{ post.title }}</a>
+      <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
   </li>
 {% endfor %}
 
@@ -158,7 +158,7 @@ redirect_from:
 <h2 class="cv-head">Publications</h2>
 {% for post in site.publication-prep reversed%} 
   <li>
-    <a href="{{ base_path }}{{ post.url }}" class="cv-links" rel="permalink">{{ post.title }}</a>
+    <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
   </li>
 {% endfor %}
 
