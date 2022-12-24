@@ -122,12 +122,11 @@
   border-bottom: 1px solid $border-color;
 }
 .cv-links{
-  width: 100%;
   font-size: large;
-  a{
+  .cv-links a{
     text-decoration: none;
   }
-  a:hover{
+  .cv-links a:hover{
     color: rgb(17,142,172);
     font-size: larger;
   }
