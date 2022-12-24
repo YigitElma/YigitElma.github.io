@@ -139,33 +139,17 @@ redirect_from:
 
 <h2 class="cv-head">Projects</h2>
 {% for post in site.project reversed %} 
-  <li>
-      <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+  <li style="margin-top: 2px;">
+    <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
   </li>
 {% endfor %}
-
-<!-- 
-<ul>
-  <li>Magnetically Actuated Guidewire Design for MRI Scanners
-  <li>Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
-  <li>Weight Compensation Mechanism for an Elastic Metamaterial
-  <li>Audio Signal Processing Applications
-  <li>Tic Tac Toe Player CNC Pen Plotter
-  <li>3DOF Simulation of a Medium Altitude Rocket
-  <li>Design and Analysis of a Model Satellite
-</ul> -->
 
 <h2 class="cv-head">Publications</h2>
 {% for post in site.publication-prep reversed%} 
-  <li>
-    <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+  <li style="margin-top: 2px;">
+    <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
   </li>
 {% endfor %}
-
-<!-- <ul>
-  <li>Magnetically Actuated Guidewire Design for MRI Scanners
-  <li>Numerical Simulation of Particle Trajectories in Ion Thruster Grid Region Plasma using a PIC-DSMC Code
-</ul> -->
 
 <h2 class="cv-head">Teaching</h2>
 <div class="cv-div">
