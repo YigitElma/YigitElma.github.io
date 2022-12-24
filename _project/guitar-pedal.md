@@ -1,5 +1,5 @@
 ---
-title: "Compressor, Overdrive and Delay Eﬀect Pedals for Electric Guitar"
+title: "Audio Signal Processing Applications"
 img: pedals.webp
 collection: project
 date: 2022-04-12
