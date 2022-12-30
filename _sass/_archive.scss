@@ -41,6 +41,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  margin-left: 10px;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -76,10 +77,10 @@
 
 .archive__item:hover {
   box-shadow: 0 0 10px rgba(#000, 0.25);
+  border-radius: 10px;
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
-
   .archive__item-title {
     color: rgb(17,142,172);
   }

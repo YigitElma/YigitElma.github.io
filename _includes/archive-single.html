@@ -31,21 +31,15 @@
           {{ title }}
       </h2>
     
-      {% if post.collection == 'teaching' %}
-        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-      {% elsif post.collection == 'publications' %}
-        <div style="width: 100%; margin-top:10px;margin-bottom:5px;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+      {% if post.collection == 'publications' %}
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;margin-left: 10px;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
       {% elsif post.collection == 'publication-prep' %}
-        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-      {% elsif post.collection == 'conferences' %}
-        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
-      {% elsif post.collection == 'dissertations' %}
-        <div style="width: 100%; margin-top:10px;margin-bottom:5px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+        <div style="width: 100%; margin-top:10px;margin-bottom:5px;margin-left: 10px;"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
       {% endif %}
 
       <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
         {% if post.authors %}
-          <div><b>Authors: </b> <i>{{ post.authors }}</i> </div>
+          <div style="margin-left: 10px;"><b>Authors: </b> <i>{{ post.authors }}</i> </div>
         {% endif %}
         
         {% if post.paperurl %}
