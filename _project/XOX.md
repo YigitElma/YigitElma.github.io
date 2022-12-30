@@ -2,7 +2,7 @@
 title: "Tic Tac Toe Player CNC Pen Plotter"
 img: XOX.webp
 collection: project
-date: 2017-07-03 
+date: 2020-05-03 
 ---
 PAGE UNDER CONSTRUCTION
 <center>

@@ -2,7 +2,7 @@
 title: "Design and Analysis of a Model Satellite"
 img: rasat.webp
 collection: project
-date: 2021-02-03
+date: 2021-05-03
 ---
 <div align="justify">
 During my junior year in Mechanical Engineering, I attended two student organizations, RASAT and Bumerang. The aim of both of them was to compete in Teknofest. Unfortunately, due to Covid, after successful Preliminary Design and Critical Design Reports, the manufacturing and competition logistics prevented us from finishing our project. However, I've acquired valuable computer skills during the preparation.
