@@ -52,6 +52,15 @@
   font-size: 39px;
   margin: 0 0 1rem 0;
 }
+.content-bef .down-arrow{
+  width:5.0%;
+  margin-top: 100px;
+}
+.content-bef .down-arrow:hover{
+  width:6.0%;
+  margin-top: 90px;
+  transition: all 0.3s;
+}
 .content-bef .sub_title {
   font-weight: 600;
   font-size: 34px;
@@ -257,6 +266,14 @@
   }
   .content-bef .profile img{
     width: 140px;
+  }
+  .content-bef .down-arrow{
+    width:15.0%;
+    margin-top: 100px;
+  }
+  .content-bef .down-arrow:hover{
+    width:15.0%;
+    margin-top: 100px;
   }
   .cv-title, .cv-links{
     font-size: 16px;
