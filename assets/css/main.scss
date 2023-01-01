@@ -154,10 +154,8 @@
   width: 32.333%;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
-  -webkit-transition: -webkit-transform 0.4s;
-  transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
-  transition: transform 0.4s, -webkit-transform 0.4s;
+  border-radius: 5px;
 }
 .chapters .chapter a {
   text-decoration: none;
@@ -165,14 +163,14 @@
 .chapters .chapter img {
   width: 100%;
   vertical-align: middle;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  border-radius: 5px;
 }
-.chapters .chapter img:hover {
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5);
+.chapters .chapter:hover .chapter_title {
+  text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+.chapters .chapter:hover img{
+  transform: scale(1.5);
+  filter: grayscale(95%);
 }
 .chapters .chapter_inner {
   position: absolute;
