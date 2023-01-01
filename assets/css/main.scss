@@ -59,7 +59,7 @@
 .content-bef .down-arrow:hover{
   width:6.0%;
   margin-top: 90px;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .content-bef .sub_title {
   font-weight: 600;
@@ -75,6 +75,8 @@
   margin: 0;
   width: 100%;
   aspect-ratio: 2/1;
+  background-image: url('/images/wallpaper.svg');
+  background-size: cover;
 }
 .content-bef .profile{
   margin-bottom: 25px;
