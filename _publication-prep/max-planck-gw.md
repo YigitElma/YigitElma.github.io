@@ -2,9 +2,9 @@
 title: "Magnetic Guidewire Steering at Ultrahigh Magnetic Field"
 collection: publication-prep
 permalink: /publication/paper-1
-status: 'Submitted to Science Robotics'
+status: 'In Revision, Science Advances'
 date: 2022-12-05
-venue: Submitted to Science Robotics
+venue: Science Advances
 authors: Tiryaki, M. E.; Elmacioglu, Y.; Sitti, M.
 ---
 
