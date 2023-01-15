@@ -1,6 +1,6 @@
 ---
 title: "Tic Tac Toe Player CNC Pen Plotter"
-img: XOX.webp
+img: projects/cover-pictures/XOX.webp
 collection: project
 date: 2020-05-03 
 ---
@@ -13,9 +13,9 @@ Your browser does not support the video tag.
 </center>
 
 <center>
-<img src="/images/xox-workflow.png" alt="General workflow of the system" style="width:80.0%;margin-top:8px;margin-bottom:8px;border-radius:5px;"/>
+<img src="/images/projects/xox-workflow.png" alt="General workflow of the system" style="width:80.0%;margin-top:8px;margin-bottom:8px;border-radius:5px;"/>
 </center>
 
 <center>
-<img src="/images/xox-imageProcessing.png" alt="Image Processing Steps" style="width:90.0%;margin-top:8px;margin-bottom:8px;"/>
+<img src="/images/projects/xox-imageProcessing.png" alt="Image Processing Steps" style="width:90.0%;margin-top:8px;margin-bottom:8px;"/>
 </center>

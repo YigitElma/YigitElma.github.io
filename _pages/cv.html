@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 <div class="center-text"><a href="/files/CV.pdf" download>Download CV here</a></div>
-<h2 class="cv-head">Education</h2>
+<h2 class="cv-header">Education</h2>
 
 <div class="cv-div">
   <div class="cv-image">
@@ -56,7 +56,7 @@ redirect_from:
   </div>
 </div>
 
-<h2 class="cv-head">Experience</h2>
+<h2 class="cv-header">Experience</h2>
 
 <div class="cv-div">
   <div class="cv-image">
@@ -66,7 +66,7 @@ redirect_from:
   <div class="cv-info">
     <div class="cv-title">Undergraduate Researcher: BUSTLab</div>
     <div class="cv-date"><i class="fa fa-calendar"></i> &emsp; 2021 October-Present</div>
-    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;Istanbul/TURKEY</div>
+    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;&nbsp;Istanbul/TURKEY</div>
     <ul>
       <li> <b>Supervisor:</b> Prof. Murat Celik
     </ul>
@@ -81,7 +81,7 @@ redirect_from:
   <div class="cv-info">
     <div class="cv-title">Undergraduate Researcher: Max Planck Institute for Intelligent Systems</div>
     <div class="cv-date"><i class="fa fa-calendar"></i> &emsp; 2022 June-September</div>
-    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;Stuttgart/GERMANY</div>
+    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;&nbsp;Stuttgart/GERMANY</div>
     <ul>
       <li> <b>Supervisor:</b> Prof. Metin Sitti, Mehmet Efe Tiryaki
     </ul>
@@ -97,7 +97,7 @@ redirect_from:
   <div class="cv-info">
     <div class="cv-title">Manufacturing Intern: PAKKENS</div>
     <div class="cv-date"><i class="fa fa-calendar"></i> &emsp; 2022 January-February</div>
-    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;Bursa/TURKEY</div>
+    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;&nbsp;Bursa/TURKEY</div>
     <ul>
       <li> Investigated different manufacturing methods ranging from machining to injection molding. Also contributed to R&D projects on flow simulation of a hydro block of a combi boiler
     </ul>
@@ -112,7 +112,7 @@ redirect_from:
   <div class="cv-info">
     <div class="cv-title">R&D Intern: BAYKAR Technologies</div>
     <div class="cv-date"><i class="fa fa-calendar"></i> &emsp; 2021 August-September</div>
-    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;Istanbul/TURKEY</div>
+    <div class="cv-date"><i class="fa fa-map-marker"></i> &emsp;&nbsp;Istanbul/TURKEY</div>
     <ul>
       <li> CFD Store Separation Analysis from an unmanned aircraft under the effect of propeller for various types of store geometries
       <li> Research on Guidance, Navigation, and Control of a missile and basic programming applications of different Guidance Laws
@@ -120,7 +120,7 @@ redirect_from:
   </div>
 </div>
 
-<h2 class="cv-head">Skills</h2>
+<h2 class="cv-header">Skills</h2>
 <ul>
   <li> <b>Programming:</b> C/C++, MATLAB/Simulink, Python, ROS
   <li> <b>CAD:</b> Solidworks, Fusion 360
@@ -129,7 +129,7 @@ redirect_from:
   <li> <b>Other Computer Tools:</b> LaTex, Microsoft Office, Inkscape 
 </ul>
 
-<h2 class="cv-head">Languages</h2>
+<h2 class="cv-header">Languages</h2>
 <ul>
   <li> <b>English:</b> Advanced - TOEFL: 104/120
   <li> <b>French:</b> B2
@@ -137,21 +137,21 @@ redirect_from:
   <li> <b>Turkish:</b> Native
 </ul>
 
-<h2 class="cv-head">Projects</h2>
+<h2 class="cv-header">Projects</h2>
 {% for post in site.project reversed %} 
   <li style="margin-top: 2px;">
     <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
   </li>
 {% endfor %}
 
-<h2 class="cv-head">Publications</h2>
+<h2 class="cv-header">Publications</h2>
 {% for post in site.publication-prep reversed%} 
   <li style="margin-top: 2px;">
     <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
   </li>
 {% endfor %}
 
-<h2 class="cv-head">Teaching</h2>
+<h2 class="cv-header">Teaching</h2>
 <div class="cv-div">
   <div class="cv-image">
     <a href="https://www.boun.edu.tr/en-US/Index"><img src="/images/logos/boun.jpg" style="border-radius: 50%;" alt="BOUN"/></a>

@@ -1,6 +1,6 @@
 ---
 title: "Weight Compensation Mechanism for an Elastic Metamaterial"
-img: weightComp.webp
+img: projects/cover-pictures/weightComp.webp
 collection: project
 date: 2022-01-03
 ---

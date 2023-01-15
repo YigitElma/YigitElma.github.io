@@ -1,6 +1,6 @@
 ---
 title: "3DOF Simulation of a Medium Altitude Rocket"
-img: bumerang.webp
+img: projects/cover-pictures/bumerang.webp
 collection: project
 date: 2021-04-03
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Design and Analysis of a Model Satellite"
-img: rasat.webp
+img: projects/cover-pictures/rasat.webp
 collection: project
 date: 2021-05-03
 ---
@@ -9,7 +9,7 @@ During my junior year in Mechanical Engineering, I attended two student organiza
 </div>
 
 <center>
-<img src="/images/rasat_mekanik.png" alt="Mechanical Design" style="resolution:150dpi;width:90.0%;"/>
+<img src="/images/projects/rasat_mekanik.png" alt="Mechanical Design" style="resolution:150dpi;width:90.0%;"/>
 </center>
 
 <div align="justify">
@@ -17,7 +17,7 @@ RASAT Team designed a CanSat that can communicate with a ground station and, aft
 </div>
 
 <center>
-<img src="/images/rasat_üst.png" alt="Locking Mechanism" style="width:70.0%;margin-top:8px;margin-bottom:8px;"/>
+<img src="/images/projects/rasat_üst.png" alt="Locking Mechanism" style="width:70.0%;margin-top:8px;margin-bottom:8px;"/>
 </center>
 <div align="justify">
 During our preparation, we conducted weekly meetings with the whole team, including electronics and software groups. Thanks to those meetings, I got accustomed to their jargon and learned many new terms.

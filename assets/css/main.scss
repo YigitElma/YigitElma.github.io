@@ -36,6 +36,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  p {
+    text-align: justify;
+  }
 }
 .content-bef {
   position: absolute;
@@ -124,7 +128,7 @@
 .cv-div ul{
   margin-top: 2px;
 }
-.cv-head{
+.cv-header{
   font-size: 25px;
   margin-top: 25px;
   font-weight: 600;
