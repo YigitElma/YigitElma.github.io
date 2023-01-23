@@ -26,7 +26,7 @@ timezone                 : Asia/Istanbul
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-F8HEPNFQFM
 
 # Site Author
 author:
@@ -35,11 +35,9 @@ author:
   bio              : "I’m a mechanical engineering and physics student having a life-long mentoring from an architect, my mom, and a computer engineer, my dad, which gave me aesthetic vision, systematic thinking and analytical skills."
   location         : "Istanbul / TURKEY"
   googlescholar    :
-  email            : "yigitelmacioglu@hotmail.com"
+  email            : "yigitelmacioglu  gmail.com"
   researchgate     :  
-  facebook         :
   github           : "YigitElma"
-  instagram        :
   linkedin         : "yigit-gunsur-elmacioglu"
   stackoverflow    : 
   twitter          :
