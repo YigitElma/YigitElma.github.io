@@ -4,7 +4,7 @@ collection: publication-prep
 permalink: /publication/paper-1
 status: 'In Revision, Science Advances'
 date: 2023-12-05
-authors: Tiryaki, M. E.; Elmacioglu, Y.; Sitti, M.
+authors: Mehmet Efe TIRYAKI, Yigit Gunsur ELMACIOGLU, Metin SITTI
 ---
 
 PAGE UNDER CONSTRUCTION

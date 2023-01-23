@@ -4,7 +4,7 @@ collection: publication-prep
 permalink: /publication/paper-2
 status: 'In Preparation'
 date: 2023-12-05
-authors: Elmacioglu, Y.; Turkoz, E.; Sik, F.; Celik, M.
+authors: Yigit Gunsur ELMACIOGLU, Emre TURKOZ, Murat CELIK
 ---
 
 PAGE UNDER CONSTRUCTION
