@@ -9,7 +9,7 @@ When I was 10, as a birthday present, I asked for <i>"Guitar Hero"</i>, a popula
 </div>
 
 <center>
-<img src="/images/projects/pedals.webp" alt="First Pedal" style="width: 90.0%;border-radius:3px;margin-top:8px;margin-bottom:8px;"/>
+<img src="/images/projects/cover-pictures/pedals.webp" alt="First Pedal" style="width: 90.0%;border-radius:3px;margin-top:8px;margin-bottom:8px;"/>
 </center>
 
 <div align="justify" style="margin-bottom:10px;">
