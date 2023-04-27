@@ -1,5 +1,5 @@
 ---
-title: "Magnetic Guidewire Steering at Ultrahigh Magnetic Field"
+title: "Magnetic Guidewire Steering at Ultrahigh Magnetic Fields"
 collection: publications
 permalink: /publication/paper-1
 status: 'Published, Science Advances'
