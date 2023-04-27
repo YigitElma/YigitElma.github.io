@@ -12,9 +12,9 @@ author_profile: true
             align-items: center;">
   Publications
 </div>
-{% for post in site.publication-prep reversed %}
+{% for post in site.publications reversed %}
   {% include archive-publication.html %}
 {% endfor %}
-{% for post in site.publications reversed %}
+{% for post in site.publication-prep reversed %}
   {% include archive-publication.html %}
 {% endfor %}
