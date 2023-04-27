@@ -5,4 +5,4 @@ collection: project
 date: 2022-07-09
 ---
 
-THIS PAGE WILL BE COMPLETED WHEN THE JOURNAL ARTICLE PUBLISHED
+Please check the publication <a href="https://www.science.org/doi/10.1126/sciadv.adg6438"> here</a>
