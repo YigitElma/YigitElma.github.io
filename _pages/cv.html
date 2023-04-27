@@ -145,6 +145,11 @@ redirect_from:
 {% endfor %}
 
 <h2 class="cv-header">Publications</h2>
+{% for post in site.publications reversed%} 
+  <li style="margin-top: 2px;">
+    <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
+  </li>
+{% endfor %}
 {% for post in site.publication-prep reversed%} 
   <li style="margin-top: 2px;">
     <a class="cv-links" href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none;">{{ post.title }}</a>
