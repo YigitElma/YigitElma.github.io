@@ -9,4 +9,4 @@ link: https://www.science.org/doi/10.1126/sciadv.adg6438
 citation: Science Advances | Volume 9 | Issue 17 | April 2023
 ---
 
-Please check the publiction <a href="https://www.science.org/doi/10.1126/sciadv.adg6438"> here</a>
+Please check the publication <a href="https://www.science.org/doi/10.1126/sciadv.adg6438"> here</a>
