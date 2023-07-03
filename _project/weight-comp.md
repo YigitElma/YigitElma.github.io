@@ -5,7 +5,7 @@ collection: project
 date: 2022-01-03
 ---
 <p align="justify">
-For the senior design project, our group worked on a weight compensation mechanism for the inertial amplification mechanism proposed by Prof. Çetin Yılmaz, in this <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.054309">paper</a>, who is also the advisor of our project. Check the <a href="#project-report">report</a> for more details about our contributions.
+For the senior design project, our group worked on a weight compensation mechanism for the inertial amplification mechanism proposed by Prof. Çetin Yılmaz, in this <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.054309" target="_blank">paper</a>, who is also the advisor of our project. Check the <a href="#project-report">report</a> for more details about our contributions.
 </p>
 
 <p align="justify">
@@ -42,7 +42,7 @@ What happens is when the end points displace horizontally by an amount u, the mi
 </center>
 
 <p align="justify">
-Here, the term multiplying the acceleration term represents the effective inertia of the system. From here we can conclude that we can increase the effective inertia simply by decreasing &#952; and this is what inertial amplification refers to. For more details, please check out the <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.054309"> original paper</a>. 
+Here, the term multiplying the acceleration term represents the effective inertia of the system. From here we can conclude that we can increase the effective inertia simply by decreasing &#952; and this is what inertial amplification refers to. For more details, please check out the <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.76.054309" target="_blank"> original paper</a>. 
 </p>
 
 <p align="justify">
