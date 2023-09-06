@@ -21,7 +21,7 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 timezone                 : Asia/Istanbul
-last_update              : "27 April 2023"
+last_update              : "6 September 2023"
 
 # Analytics
 analytics:
@@ -33,7 +33,7 @@ analytics:
 author:
   name             : "Yiğit Günsür Elmacıoğlu"
   avatar           : "cv-photo.jpg"
-  bio              : "I’m a mechanical engineering and physics student having a life-long mentoring from an architect, my mom, and a computer engineer, my dad, which gave me aesthetic vision, systematic thinking and analytical skills."
+  bio              : "I’m a mechanical and aerospace engineering Ph.D. student having a life-long mentoring from an architect, my mom, and a computer engineer, my dad, which gave me aesthetic vision, systematic thinking and analytical skills."
   location         : "Istanbul / TURKEY"
   googlescholar    :
   email            : "yigitelmacioglu  gmail.com"
