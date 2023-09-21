@@ -21,7 +21,7 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 timezone                 : Asia/Istanbul
-last_update              : "6 September 2023"
+last_update              : "21 September 2023"
 
 # Analytics
 analytics:
