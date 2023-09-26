@@ -7,4 +7,4 @@ date: 2023-12-05
 authors: Yigit Gunsur ELMACIOGLU, Emre TURKOZ, Murat CELIK
 ---
 
-PAGE UNDER CONSTRUCTION
+This work is almost done but needs experimental results on ion survival ratio and ion sputtering for Molybdenum and Xenon plasma on low energy range (below 100eV). Until we find any experimental proof, we opt out to publish the 3D and 2D PIC-DSMC codes on C++ and MATLAB, respectively.
