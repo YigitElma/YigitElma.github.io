@@ -2,7 +2,7 @@
 title: "ZERNIPAX: A Fast and Accurate Zernike Polynomial Calculator in Python"
 collection: publication-prep
 permalink: /publication/paper-3
-status: 'In Revision'
+status: 'In Revision, Applied Mathematics and Computation'
 date: 2024-08-01
 authors: Yigit Gunsur ELMACIOGLU, Egemen KOLEMEN
 ---

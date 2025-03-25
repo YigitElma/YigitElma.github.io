@@ -6,6 +6,10 @@ date: 2024-04-03
 ---
 <img src="/images/projects/logo_med_clear.png" alt="DESC" style="width:50.0%;margin-top:8px;margin-bottom:8px;border-radius:5px;"/>
 
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=cxqWrc7YopE&t=1102s">
+</iframe>
+
 [![License](https://img.shields.io/github/license/PlasmaControl/desc?color=blue&logo=open-source-initiative&logoColor=white)](https://github.com/PlasmaControl/DESC/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4876504.svg)](https://doi.org/10.5281/zenodo.4876504)
 [![GitHub issues](https://img.shields.io/github/issues/PlasmaControl/DESC)](https://github.com/PlasmaControl/DESC/issues)
