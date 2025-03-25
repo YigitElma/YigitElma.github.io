@@ -142,13 +142,15 @@
   border-bottom: 1px solid $border-color;
 }
 .cv-links{
-  font-size: large;
+  font-size: 18px;
   text-decoration: none;
   color: rgb(85, 85, 85);
+  line-height: 29px;
 }
 .cv-links:hover{
   color: rgb(17,142,172);
   font-size: 19px;
+  line-height: 29px;
 }
 // =============================  
 
