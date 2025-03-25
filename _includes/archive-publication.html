@@ -12,11 +12,11 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="margin:10px;">
+<div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: rgb(85, 85, 85);">
-      <h2 class="archive__item-title" style="font-weight:600; font-size: 20px;" itemprop="headline">
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: rgb(85, 85, 85); margin: 10px;">
+      <h2 class="archive__item-title" style="font-weight:600; font-size: 20px; margin: 5px 10px;" itemprop="headline">
           {{ title }}
       </h2>
     
