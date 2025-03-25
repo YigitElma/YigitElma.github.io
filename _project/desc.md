@@ -7,7 +7,7 @@ date: 2024-04-03
 <img src="/images/projects/logo_med_clear.png" alt="DESC" style="width:50.0%;margin-top:8px;margin-bottom:8px;border-radius:5px;"/>
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/cxqWrc7YopE&t">
+src="https://www.youtube.com/embed/cxqWrc7YopE">
 </iframe>
 
 [![License](https://img.shields.io/github/license/PlasmaControl/desc?color=blue&logo=open-source-initiative&logoColor=white)](https://github.com/PlasmaControl/DESC/blob/master/LICENSE)
