@@ -13,19 +13,21 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="margin:20px;">
-
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="padding:20px;">
     <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: rgb(85, 85, 85); margin: 2px;">
-      <h2 class="archive__item-title" style="font-weight:600; font-size: 20px; margin: 5px 10px;" itemprop="headline">
+      <h2 class="archive__item-title" style="font-weight:600; font-size: 20px; margin: 0px;" itemprop="headline">
           {{ title }}
       </h2>
-    
       {% if post.collection == 'publications' %}
-        <div style="width: 100%; margin:10px 5px;"><i>{{ post.cite }}</i>  <a style="margin-left: 30px;" href=" {{ post.link2paper }} " target="_blank"> link</a> </div>
+        <div style="width: 100%; margin:10px 5px;">
+          <i>{{ post.cite }}</i>  
+          <a style="margin-left: 30px;" href=" {{ post.link2paper }} " target="_blank"> link</a> 
+        </div>
       {% elsif post.collection == 'publication-prep' %}
-        <div style="width: 100%; margin:10px 5px;"><i>{{ post.status }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </div>
+        <div style="width: 100%; margin:10px 5px;">
+          <i>{{ post.status }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
+        </div>
       {% endif %}
-
       <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
         {% if post.authors %}
           <div style="margin-left: 10px;"><b>Authors: </b> {{ post.authors }} </div>
