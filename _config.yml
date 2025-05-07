@@ -21,7 +21,7 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 timezone                 : Asia/Istanbul
-last_update              : "24 March 2025"
+last_update              : "06 May 2025"
 
 # Analytics
 analytics:
@@ -109,6 +109,9 @@ collections:
   project:
     output: true
     permalink: /:collection/:path/
+  project-minor:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -141,6 +144,15 @@ defaults:
   - scope:
       path: ""
       type: project
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _project-minor
+  - scope:
+      path: ""
+      type: project-minor
     values:
       layout: single
       author_profile: true
