@@ -50,7 +50,7 @@
       <section class="chapters cf">
         <div class="wrapper-bef flex-row-bef">
           {% for post in site.project-minor reversed%}
-            <div class="chapter" style="width: 24.8%;">
+            <div class="chapter" style="width: 24.0%;">
               <a href="{{post.url | prepend: site.baseurl}}">
                 {% if post.img %}
                   <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
