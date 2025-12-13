@@ -29,9 +29,9 @@ author_profile: true
   Posters
 </div>
 <section class="chapters cf">
-  <div class="wrapper-bef flex-row-bef">
+  <div class="wrapper-bef flex-row-bef" style="justify-content: flex-start; margin: 0;">
     {% for post in site.posters reversed%}
-      <div class="chapter" style="width: 24.0%;">
+      <div class="chapter" style="width: 32.0%;">
         <a href="{{post.url | prepend: site.baseurl}}">
           {% if post.img %}
             <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
@@ -39,8 +39,7 @@ author_profile: true
         </a>
         <a href="{{post.url | prepend: site.baseurl}}">
           <div class="chapter_inner">
-            <p class="chapter_number">{{post.date | date: '%Y'}}</p>
-            <h3 class="chapter_title">{{post.title}}</h3>
+            <p class="chapter_number" style="color: #c25b6c;">{{post.date | date: '%Y'}}</p>
           </div>
         </a>
       </div>
