@@ -18,3 +18,32 @@ author_profile: true
 {% for post in site.publication-prep reversed %}
   {% include archive-publication.html %}
 {% endfor %}
+
+
+<div style="width: 100%;
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 20px;
+            color: rgb(17,142,172);
+            align-items: center;">
+  Posters
+</div>
+<section class="chapters cf">
+  <div class="wrapper-bef flex-row-bef">
+    {% for post in site.posters reversed%}
+      <div class="chapter" style="width: 24.0%;">
+        <a href="{{post.url | prepend: site.baseurl}}">
+          {% if post.img %}
+            <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+          {% endif %}
+        </a>
+        <a href="{{post.url | prepend: site.baseurl}}">
+          <div class="chapter_inner">
+            <p class="chapter_number">{{post.date | date: '%Y'}}</p>
+            <h3 class="chapter_title">{{post.title}}</h3>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
