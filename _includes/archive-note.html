@@ -22,7 +22,7 @@
         <i>{{ post.description }}</i>
       </div>
       <div style="display: flex;flex-direction: row;width:100%;flex-wrap: wrap;">
-        <div style="margin-left: 10px;"><b>Date: </b> post.date | default: "1900-01-01" | date: "%M %Y" </div>
+        <div style="margin-left: 10px;"><b>Date: </b> {{ post.date | default: "1900-01-01" | date: "%M %Y" }} </div>
       </div>   
     </a>   
   </article>
