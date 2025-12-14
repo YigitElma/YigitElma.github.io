@@ -143,7 +143,7 @@ The details of getting the Jacobian will be explained in `Derivatives` notebook.
 
 $$\mathbf{f}(x+\Delta x) = \mathbf{f}(x) + \mathbf{J}\Delta x $$
 
-In Newton methods, at each iteration we are trying to find a $\Delta x$ such that we will minimize $|f(x+\Delta x)|^2$. This can be satisfied by,
+In Newton methods, at each iteration we are trying to find a $\Delta x$ such that we will minimize $norm(f(x+\Delta x))^2$. This can be satisfied by,
 
 $$0 = \mathbf{f}(x) + \mathbf{J}\Delta x $$ 
 
@@ -171,7 +171,7 @@ The given procedure finds a step size but it could be too large or small which c
 
 ## Trust Region Method
 
-Trust region method finds a new descent direction and a step size for $\Delta x$ such that it satisfies $|\Delta x|\leq r_{tr}$ where $r_{tr} \in \mathbb{R}$ is a positive number. The optimization problem for this case is,
+Trust region method finds a new descent direction and a step size for $\Delta x$ such that it satisfies $norm(\Delta x)\leq r_{tr}$ where $r_{tr} \in \mathbb{R}$ is a positive number. The optimization problem for this case is,
 
 $$
 \min_{\Delta x} ||\mathbf{f} + \mathbf{J}\Delta x||^2  \hspace{2cm} \text{such that } ||\Delta x||\leq r_{tr}, r_{tr}>0, r_{tr} \in \mathbb{R}
@@ -343,7 +343,7 @@ fig.show()
 ```
 
 <iframe src="/files/notes/eq-nfp.html"
-        width="100%" height="980" frameborder="0"></iframe>
+        width="100%" height="768" frameborder="0"></iframe>
 
 The full toroidal domain, shown transparent, is formed by repeating the solid part 3 times along the toroidal direction. 
 
@@ -365,7 +365,7 @@ fig.show()
 ```
 
 <iframe src="/files/notes/eq-nfp-sym.html"
-        width="100%" height="980" frameborder="0"></iframe>
+        width="100%" height="768" frameborder="0"></iframe>
 
 DESC is a pseudo-spectral code, this means we evaluate the functions on given points, and don't leave them in spectral form always. For force balance problem, we use a `ConcentricGrid` (see [Grid Dev Guide](https://desc-docs.readthedocs.io/en/latest/notebooks/dev_guide/grid.html) for details). The force balance error $\mathbf{J}\times \mathbf{B} - \nabla p$ is evaluated at those points.
 
@@ -394,4 +394,4 @@ fig.show()
 ```
 
 <iframe src="/files/notes/eq-nodes.html"
-        width="100%" height="980" frameborder="0"></iframe>
+        width="100%" height="768" frameborder="0"></iframe>
