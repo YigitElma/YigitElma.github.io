@@ -8,9 +8,17 @@ date: 2024-12-15
 
 In this notebook, we will give a brief overview of how we treat the 3D ideal MHD equilibrium as an optimization problem. First of all, here are the ideal MHD equations,
 
-$$\nabla \cdot \mathbf{B} = 0 $$
-$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} $$
-$$\mathbf{J} \times \mathbf{B} = \nabla p  $$
+$$
+    \nabla \cdot \mathbf{B} = 0
+$$
+
+$$
+    \nabla \times \mathbf{B} = \mu_0 \mathbf{J} 
+$$
+
+$$
+    \mathbf{J} \times \mathbf{B} = \nabla p  
+$$
 
 We will use flux coordinates $(\rho, \theta, \zeta)$ for the derivations. Then, we can write a general magnetic field in contravariant form as,
 
@@ -61,10 +69,16 @@ In theory, by increasing the resolutions L, M and N, we can parametrize any surf
 
 We can write the force error minimization as follows,
 
-$$\text{minimize} \hspace{1cm}    ||\mathbf{J}\times\mathbf{B} - \nabla p||_2^2 $$
-$$\text{subject to} \hspace{1.5cm}    \mathbf{A\bar{x}=b}  $$
+$$
+    \text{minimize} \hspace{1cm}    ||\mathbf{J}\times\mathbf{B} - \nabla p||_2^2 
+$$
+
+$$
+    \text{subject to} \hspace{1.5cm}    \mathbf{A\bar{x}=b}  
+$$
 
 In DESC, we use $\bar{x}$ which includes both optimization and constraint parameters since they are useful for general stellarator optimization problem (i.e. allowing last closed flux surface, LCFS, to change to get better QA/QH etc.). However, the objectives are function of $\mathbf{x}$ only.
+
 $$
     \mathbf{\bar{x}} = \begin{bmatrix}
         \mathbf{x}\\
@@ -81,23 +95,28 @@ $$
         \psi_{a}\\
     \end{bmatrix}
 $$
+
 For pure force minimization problem, all of our constraints are linear and can be written by $\mathbf{A\bar{x}=b}$ where $\mathbf{A}$ is the constraint matrix and $\mathbf{b}$ is the target for constraints, but in general, we can have some non-linear constraints too. DESC offers different initialization methods, but we will focus on LCFS boundary condition. In addition to boundary shape, we need to give pressure profile and iota or current profile.
 
 ## Constrained to Unconstrained Optimization
 The problem formulated above is a constrained optimization problem. Ideally, we want to have unconstrained optimization. For this setup, it can be done by first computing the null-space of $\mathbf{A}$, thus we have,
 
 $$\mathbf{AZ}=0$$
+
 $$\mathbf{A\bar{x}} = \mathbf{A(x_{particular} + Zy) = b}$$
+
 $$\mathbf{Z}^T\mathbf{Z} = \mathbb{I}  $$
 
 This approach requires us to solve $\mathbf{Ax_{particular}=b}$ and find the null-space only once at the beginning, then the actual optimization iterations can use unconstrained $y$. From linear algebra, it is known that null-space can be found by singular value decomposition (SVD). Moreover, once we get the SVD, it is significantly easier to solve linear system $\mathbf{Ax_{particular}=b}$. All of these steps are implemented in `desc.objectives.utils.factorize_linear_constraints` function.
 
 $$\mathbf{A} = \mathbf{U\Sigma V^T} \hspace{1cm} \mathbf{U}\in \mathbb{R}^{m\times m},  \mathbf{\Sigma}\in \mathbb{R}^{m\times n}, \mathbf{V}\in \mathbb{R}^{n\times n}$$
+
 $$\mathbf{U}\mathbf{U}^T = \mathbb{I} \hspace{1cm} \mathbf{V}\mathbf{V}^T = \mathbb{I} $$
 
 In the code, we refer to `y` as `reduced state vector` or `x_reduced`. `factorize_linear_constraints` function will also provide `project` and `recover` methods that enables going back and forth between $\bar{x}$ and `x_reduced`.
 
 $$\textbf{project}(\mathbf{\bar{x}}) = \mathbf{Z}^T \mathbf{(\bar{x}-x_{particular}) = x_{reduced} = y}$$
+
 $$\textbf{recover}\mathbf{(x_{reduced}) = x_{particular} +  Zx_{reduced} = \bar{x}}$$
 
 ## Iterations in a nutshell
@@ -133,8 +152,11 @@ $$\Delta x = -(\mathbf{J}^T\mathbf{J})^-\mathbf{J}^T\mathbf{f}(x) $$
 The above equation introduced $\mathbf{J}^T$ to prevent abuse of notation of the inverse. For non-square matrices, the inverse is not defined, one can only find left or right inverses which are called pseudo-inverse. Though, one can write $\Delta x = -\mathbf{J}^{\dagger}\mathbf{f}(x)$ by specifying that $\mathbf{J}^{\dagger}$ is the left inverse. Moving forward, we see that the inverse of $\mathbf{J}^T\mathbf{J}$ is needed which is computationally heavy and inaccurate. Instead, we will use matrix decomposition again. This time QR decomposition will be used (the user can change the decomposition type to "SVD" or "Cholesky" by supplying `tr_method` option to the optimizer). The reason for changing method is that this operation will be conducted every single iteration of the optimization, thus it needs to be fast. Although SVD is very accurate, compared to QR, it is slower. Once a QR decomposition is found, the step size can be found as follows,
 
 $$\mathbf{J} = QR \hspace{1cm} \text{where } Q^TQ = \mathbb{I} \text{ and } R \text{ is upper triangular}$$
+
 $$\mathbf{J} \Delta x = -\mathbf{f}(x) $$
+
 $$QR\Delta x = -\mathbf{f}(x) $$
+
 $$Q^TQR\Delta x = -Q^T\mathbf{f}(x) $$
 
 The last equation can be rewritten as,
@@ -156,6 +178,7 @@ $$
 If the basic Newton step that is found from the previous section does not satisfy the constraint, we add a regularization term to the objective. This is known as Tikhonov regularization and similar to Levenberg-Marquardt method. Then, the trust-region subproblem becomes,
 
 $$ \min_{\Delta x} ||\mathbf{f} + \mathbf{J}\Delta x||^2 + \alpha ||\Delta x||^2 $$
+
 $$ \text{subject to } ||\Delta x||\leq r_{tr}, r_{tr}>0, r_{tr} \in \mathbb{R} $$
 
 <img src="images/notes/trust-region.png" alt="drawing" style="display: block; width:50%; margin-left: auto; margin-right: auto;"/>
@@ -167,6 +190,7 @@ We provide different functions to solve this subproblem which are all located in
 ### Solving Trust Region Problem with QR
 
 Briefly, for the QR decomposition algorithm, we expand the regularized objective function to get the following,
+
 $$
 \begin{align*}
     ||F  + \mathbf{J} \Delta x||^2_2 + &\alpha||\Delta x||_2^2 \\
@@ -199,6 +223,7 @@ $$
     \end{bmatrix} \right\rVert_2^2
 \end{equation}
 $$
+
 $$ \text{subject to } ||\Delta x||\leq r_{tr}, r_{tr}>0, r_{tr} \in \mathbb{R} $$
 
 We solve the linear system with different values of $\alpha$ (treated as root-finding problem) until the norm of the step $\Delta x$ is close enough to $r_{tr}$.
@@ -269,13 +294,9 @@ eq = Equilibrium(surface=lcfs)
 # plot flux surfaces of the initial guess
 plot_surfaces(eq);
 ```
-
-
-    
+  
 ![png](images/notes/getting-started-eq-solve_8_0.png)
     
-
-
 
 ```python
 eq_solved = desc.examples.get("ATF")
@@ -283,10 +304,7 @@ eq_solved = desc.examples.get("ATF")
 plot_comparison(eqs=[eq, eq_solved], labels=["Initial guess", "Actual solution"]);
 ```
 
-
-    
 ![png](images/notes/getting-started-eq-solve_9_0.png)
-    
 
 
 ## Computational Domain
@@ -300,7 +318,9 @@ Number of field periods symmetry is basically an integer quantifying how many ti
 Stellarator symmtry can be shown as,
 
 $$R(\rho, \theta, \zeta) = R(\rho, -\theta, -\zeta) $$
+
 $$Z(\rho, \theta, \zeta) = - Z(\rho, -\theta, -\zeta) $$
+
 $$\lambda(\rho, \theta, \zeta) = - \lambda(\rho, -\theta, -\zeta) $$
 
 Let's see these in effect visually! Here, we will use `ARIES-CS` equilibrium with $NFP$=3. First, apply the $NFP$ symmetry,
