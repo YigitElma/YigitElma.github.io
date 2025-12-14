@@ -2,8 +2,16 @@
 title: "DESC Software Updates"
 img: posters/simons2025.png
 collection: poster
-date: 2025-03-15
 ---
+
+<div style="width: 100%;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 20px;
+            color: #494e52;
+            align-items: center;">
+  Date : March 2025, New York, USA
+</div>
 
 <div style="width:100%" id="project-report">
   <center>
