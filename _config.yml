@@ -161,10 +161,19 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _project
+  # _posters
   - scope:
       path: ""
       type: posters
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _notes
+  - scope:
+      path: ""
+      type: notes
     values:
       layout: single
       author_profile: true

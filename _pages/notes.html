@@ -1,0 +1,18 @@
+---
+layout: archive
+permalink: /notes/
+author_profile: true
+---
+{% include base_path %}
+<div style="width: 100%;
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 20px;
+            color: rgb(17,142,172);
+            align-items: center;">
+  Notes
+</div>
+{% for post in site.notes reversed %}
+  {% include archive-note.html %}
+{% endfor %}
+
