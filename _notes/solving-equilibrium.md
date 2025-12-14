@@ -1,6 +1,7 @@
 ---
 title: "How do we solve Equilibrium in DESC?"
 collection: notes
+permalink: /notes/note-1
 description: "The summary of how the 3D ideal MHD equilibrium is solved in DESC stellarator equilibrium and optimization code."
 date: 2024-12-15
 ---
