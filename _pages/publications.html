@@ -31,7 +31,7 @@ author_profile: true
 <section class="chapters cf">
   <div class="wrapper-bef flex-row-bef" style="justify-content: space-between; margin: 0; max-width: 100%;">
     {% for post in site.posters reversed%}
-      <div class="chapter" style="width: 32.0%; border: 2px solid rgb(23, 78, 48);">
+      <div class="chapter chapter3">
         <a href="{{post.url | prepend: site.baseurl}}">
           {% if post.img %}
             <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">

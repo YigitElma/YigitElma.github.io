@@ -170,6 +170,13 @@
   transition: transform 0.4s;
   border-radius: 5px;
 }
+.chapter2 {
+  width: 24%;
+}
+.chapter3 {
+  width: 32.0%; 
+  border: 2px solid rgb(23, 78, 48);
+}
 .chapters .chapter a {
   text-decoration: none;
 }
@@ -239,6 +246,12 @@
   .chapters .chapter {
     width: 99.0%;
   }
+  .chapter2 {
+    width: 99.0%;
+  }
+  .chapter3 {
+    width: 99.0%;
+  }
   .no-display-on-mobile{
     display: none;
   }
@@ -303,6 +316,12 @@
 
 @media (min-width: 701px) and (max-width: 1100px) {
   .chapters .chapter {
+    width: 48.5%;
+  }
+  .chapter2 {
+    width: 48.5%;
+  }
+  .chapter3 {
     width: 48.5%;
   }
   .no-display-on-mobile{
