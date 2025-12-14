@@ -135,13 +135,15 @@ $$\mathbf{J} = \cfrac{d\mathbf{f}}{d\mathbf{x}} = \begin{bmatrix} \cfrac{\partia
 \cfrac{\partial f_2}{\partial x_1} & \cfrac{\partial f_2}{\partial x_2} & ... & \cfrac{\partial f_2}{\partial x_n} \\
 . & . & ... & . \\
 \cfrac{\partial f_m}{\partial x_1} & \cfrac{\partial f_m}{\partial x_2} & ... & \cfrac{\partial f_m}{\partial x_n}
-\end{bmatrix} \hspace{2cm} \mathbf{f} \in \mathbb{R}^m, \mathbf{x} \in \mathbb{R}^n, \mathbf{J} \in \mathbb{R}^{m\times n} $$
+\end{bmatrix} $$
+
+$$\text{where } \mathbf{f} \in \mathbb{R}^m, \mathbf{x} \in \mathbb{R}^n, \mathbf{J} \in \mathbb{R}^{m\times n} $$
 
 The details of getting the Jacobian will be explained in `Derivatives` notebook. Returning back to the Taylor expansion, if we neglect higher order terms (in practice we usually do due to the computational problems thats comes with Hessians but there are several implementations in DESC that uses second or higher order terms i.e. perturbations, `fmintr` etc.),
 
 $$\mathbf{f}(x+\Delta x) = \mathbf{f}(x) + \mathbf{J}\Delta x $$
 
-In Newton methods, at each iteration we are trying to find a $\Delta x$ such that we will minimize $||f(x+\Delta x)||^2$. This can be satisfied by,
+In Newton methods, at each iteration we are trying to find a $\Delta x$ such that we will minimize $|f(x+\Delta x)|^2$. This can be satisfied by,
 
 $$0 = \mathbf{f}(x) + \mathbf{J}\Delta x $$ 
 
@@ -169,7 +171,7 @@ The given procedure finds a step size but it could be too large or small which c
 
 ## Trust Region Method
 
-Trust region method finds a new descent direction and a step size for $\Delta x$ such that it satisfies $||\Delta x||\leq r_{tr}$ where $r_{tr} \in \mathbb{R}$ is a positive number. The optimization problem for this case is,
+Trust region method finds a new descent direction and a step size for $\Delta x$ such that it satisfies $|\Delta x|\leq r_{tr}$ where $r_{tr} \in \mathbb{R}$ is a positive number. The optimization problem for this case is,
 
 $$
 \min_{\Delta x} ||\mathbf{f} + \mathbf{J}\Delta x||^2  \hspace{2cm} \text{such that } ||\Delta x||\leq r_{tr}, r_{tr}>0, r_{tr} \in \mathbb{R}
@@ -181,7 +183,7 @@ $$ \min_{\Delta x} ||\mathbf{f} + \mathbf{J}\Delta x||^2 + \alpha ||\Delta x||^2
 
 $$ \text{subject to } ||\Delta x||\leq r_{tr}, r_{tr}>0, r_{tr} \in \mathbb{R} $$
 
-<img src="images/notes/trust-region.png" alt="drawing" style="display: block; width:50%; margin-left: auto; margin-right: auto;"/>
+<img src="/images/notes/trust-region.png" alt="drawing" style="display: block; width:50%; margin-left: auto; margin-right: auto;"/>
 
 We won't go into the details of trust region method but interested readers can refer to "Nocedal & Wright, Numerical Optimization, Chapter 4" for more information on this method.
 
@@ -295,7 +297,7 @@ eq = Equilibrium(surface=lcfs)
 plot_surfaces(eq);
 ```
   
-![png](images/notes/getting-started-eq-solve_8_0.png)
+![png](/images/notes/getting-started-eq-solve_8_0.png)
     
 
 ```python
@@ -304,7 +306,7 @@ eq_solved = desc.examples.get("ATF")
 plot_comparison(eqs=[eq, eq_solved], labels=["Initial guess", "Actual solution"]);
 ```
 
-![png](images/notes/getting-started-eq-solve_9_0.png)
+![png](/images/notes/getting-started-eq-solve_9_0.png)
 
 
 ## Computational Domain
@@ -340,7 +342,30 @@ fig = plot_3d(eq, "|B|", alpha=0.2, fig=fig)
 fig.show()
 ```
 
-## First plotly
+<iframe src="/files/notes/eq-nfp.html"
+        width="100%" height="980" frameborder="0"></iframe>
+
+The full toroidal domain, shown transparent, is formed by repeating the solid part 3 times along the toroidal direction. 
+
+Now, we will consider stellarator symmetry. This symmetry property will help us reduce the computational domain further by eliminating the redundant grid points from the computation by using the 3 identities given above that makes them duplicates of some other points. One can choose a range of $\theta, \zeta$ to satisfy those. However, it is not unique, and the choice can be different for other codes. In DESC, if the equilibrium of interest has stellarator symmetry, we only consider $\theta\in[0, \pi]$ and $\zeta\in[0, 2\pi/NFP]$. See [Grid Dev Guide](https://desc-docs--1304.org.readthedocs.build/en/1304/notebooks/dev_guide/grid.html#Symmetry) for some other considerations related to stellarator symmetry.
+
+Let's see the final computational domain!
+
+```python
+grid = LinearGrid(
+    rho=1,
+    theta=np.linspace(0, 2 * np.pi, 60),
+    zeta=np.linspace(0, 2 * np.pi / eq.NFP, 60),
+    sym=True,
+)
+
+fig = plot_3d(eq, "|B|", grid=grid)
+fig = plot_3d(eq, "|B|", alpha=0.2, fig=fig)
+fig.show()
+```
+
+<iframe src="/files/notes/eq-nfp-sym.html"
+        width="100%" height="980" frameborder="0"></iframe>
 
 DESC is a pseudo-spectral code, this means we evaluate the functions on given points, and don't leave them in spectral form always. For force balance problem, we use a `ConcentricGrid` (see [Grid Dev Guide](https://desc-docs.readthedocs.io/en/latest/notebooks/dev_guide/grid.html) for details). The force balance error $\mathbf{J}\times \mathbf{B} - \nabla p$ is evaluated at those points.
 
@@ -368,4 +393,5 @@ fig.add_trace(
 fig.show()
 ```
 
-## Second Plotly
+<iframe src="/files/notes/eq-nodes.html"
+        width="100%" height="980" frameborder="0"></iframe>
