@@ -2,6 +2,7 @@
 title: "DESC Software Updates"
 img: posters/simons2025.png
 collection: poster
+date: 2025-03-17
 ---
 
 <div style="width: 100%;
